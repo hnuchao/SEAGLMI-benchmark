@@ -1,0 +1,28 @@
+\begin{table*}[t]
+\centering
+\caption{Source-record proxy holdout, 1:1 evaluation. Each value averages five folds equally within each of five frozen negative draws, then averages the draw means equally. This is not independent biological confirmation. The original conditional 2000-replicate source-record bootstrap intervals are shown in the supplement and the source interval figure.}
+\label{tab:source-results}
+\small
+\setlength{\tabcolsep}{8pt}
+\begin{tabular}{lcccc}
+\toprule
+ & \multicolumn{2}{c}{Strict} & \multicolumn{2}{c}{Standard} \\
+Method & AUROC & AP & AUROC & AP \\
+\midrule
+SEAGLMI & 0.667 & 0.669 & 0.827 & 0.830 \\
+SEAGLMI-GBDT & 0.667 & 0.660 & 0.847 & 0.852 \\
+PairFeat-GBDT & 0.660 & 0.659 & 0.845 & 0.846 \\
+DeepLMI & 0.509 & 0.517 & 0.738 & 0.760 \\
+SPGNN & 0.532 & 0.534 & 0.772 & 0.791 \\
+HetGAT-LMI & 0.503 & 0.505 & 0.617 & 0.599 \\
+MPGK-LMI & 0.526 & 0.529 & 0.679 & 0.708 \\
+TEC-LncMir & 0.504 & 0.505 & 0.692 & 0.706 \\
+preMLI & 0.509 & 0.515 & 0.718 & 0.747 \\
+SLNPM-SC & 0.512 & 0.512 & 0.696 & 0.722 \\
+NDALMA & 0.528 & 0.537 & 0.665 & 0.684 \\
+k-mer LR & 0.507 & 0.510 & 0.692 & 0.707 \\
+Seed rule & 0.630 & 0.594 & 0.694 & 0.693 \\
+Degree prior & 0.516 & 0.532 & 0.681 & 0.740 \\
+\bottomrule
+\end{tabular}
+\end{table*}

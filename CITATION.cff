@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this benchmark, please cite the accompanying article."
+title: "SEAGLMI benchmark: shortcut-controlled evaluation of lncRNA-miRNA interaction prediction"
+type: dataset
+authors:
+  - family-names: Hou
+    given-names: Chao
+    affiliation: "College of Computer Science and Electronic Engineering, Hunan University"
+  - family-names: Kone
+    given-names: Mohamed
+    affiliation: "College of Computer Science and Electronic Engineering, Hunan University"
+  - family-names: Wang
+    given-names: Shulin
+    affiliation: "College of Computer Science and Electronic Engineering, Hunan University"
+preferred-citation:
+  type: article
+  title: "Reassessing lncRNA-miRNA interaction prediction under shortcut-controlled evaluation"
+  authors:
+    - family-names: Hou
+      given-names: Chao
+    - family-names: Kone
+      given-names: Mohamed
+    - family-names: Wang
+      given-names: Shulin
+  journal: "Briefings in Bioinformatics"

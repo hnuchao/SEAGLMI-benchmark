@@ -1,0 +1,143 @@
+{
+  "status": "scope_fixed_before_computing_p_values",
+  "created_utc": "2026-10-25T16:45:31.283078+00:00",
+  "protocols": [
+    "strict",
+    "standard"
+  ],
+  "settings": [
+    "warm",
+    "blind_lncRNA",
+    "blind_miRNA",
+    "blind_both"
+  ],
+  "ratios": [
+    1
+  ],
+  "metrics": [
+    "AUROC",
+    "AP"
+  ],
+  "pairs": [
+    [
+      "seaglmi",
+      "deeplmi"
+    ],
+    [
+      "seaglmi",
+      "spgnn"
+    ],
+    [
+      "seaglmi",
+      "hetgat_lmi_v2"
+    ],
+    [
+      "seaglmi",
+      "mpgk_lmi"
+    ],
+    [
+      "seaglmi",
+      "tec_lncmir"
+    ],
+    [
+      "seaglmi",
+      "premli_keras224_v2"
+    ],
+    [
+      "seaglmi",
+      "slnpm_correct"
+    ],
+    [
+      "seaglmi",
+      "ndalma"
+    ],
+    [
+      "sitegbdt",
+      "deeplmi"
+    ],
+    [
+      "sitegbdt",
+      "spgnn"
+    ],
+    [
+      "sitegbdt",
+      "hetgat_lmi_v2"
+    ],
+    [
+      "sitegbdt",
+      "mpgk_lmi"
+    ],
+    [
+      "sitegbdt",
+      "tec_lncmir"
+    ],
+    [
+      "sitegbdt",
+      "premli_keras224_v2"
+    ],
+    [
+      "sitegbdt",
+      "slnpm_correct"
+    ],
+    [
+      "sitegbdt",
+      "ndalma"
+    ],
+    [
+      "pairfeat_gbdt",
+      "deeplmi"
+    ],
+    [
+      "pairfeat_gbdt",
+      "spgnn"
+    ],
+    [
+      "pairfeat_gbdt",
+      "hetgat_lmi_v2"
+    ],
+    [
+      "pairfeat_gbdt",
+      "mpgk_lmi"
+    ],
+    [
+      "pairfeat_gbdt",
+      "tec_lncmir"
+    ],
+    [
+      "pairfeat_gbdt",
+      "premli_keras224_v2"
+    ],
+    [
+      "pairfeat_gbdt",
+      "slnpm_correct"
+    ],
+    [
+      "pairfeat_gbdt",
+      "ndalma"
+    ],
+    [
+      "seaglmi",
+      "sitegbdt"
+    ]
+  ],
+  "family_size": 400,
+  "alternative": "two-sided",
+  "degrees_of_freedom": 4,
+  "correction": "SE=sqrt((1/5+mean(actual_outer_rows/actual_inner_fit_rows))*sample_variance(difference))",
+  "sensitivity": "Replace row ratios by outer-positive/inner-fit-positive ratios; separate complete Holm family, never substituted for primary p values.",
+  "limitations": [
+    "Post hoc after results were known",
+    "One fixed partition seed and five dependent folds",
+    "Grouped cold partitions and reused RNA endpoints make the correction approximate",
+    "No new training, prediction, bootstrap or independent cohort"
+  ],
+  "inputs": {
+    "A_metrics_by_fold.tsv": "b997f16cb607068c9d4f0708fe501040b2253009d5cd309bc1fcb933caff6b58",
+    "A_summary.tsv": "47df3491532e60b5bfc05011471e2dcd4de4f2e0ce9dda4135cd7bba8e7e8208",
+    "fold_training_validation_outer_sizes.tsv": "2c56d125a2918b963e1ce74bd12f78a4ba48226cdd996c7ae13555c0729fdc75"
+  },
+  "sources": [
+    "https://doi.org/10.1023/A:1024068626366",
+    "https://www.jstor.org/stable/4615733"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "outer_unit_selection_records": 980,
+  "A_outer_selections": 560,
+  "B_outer_selections": 280,
+  "C1_outer_selections": 140,
+  "SEA_operator_receipts": 130,
+  "A_methods": 14,
+  "B_contrast_rows_all4metrics": 640,
+  "B_contrast_combinations": 160,
+  "C1_bootstrap_replicates": 2000,
+  "B_sampler_unit_cell_groups": 80,
+  "B_planned_entries": 20040,
+  "B_executed_group_epoch_replay_checks": 40000,
+  "B_logged_unit_epochs_checked": 58354,
+  "note": "Executed group/epoch checks are not the count of distinct negative pools; fixed F cells replay the same pool. No new experiments, significance tests, resampling, or selected subsets."
+}

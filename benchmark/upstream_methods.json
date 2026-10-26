@@ -1,0 +1,110 @@
+{
+  "scope": "Historical source provenance, not a claim all projects were current benchmark methods. Dirty source hashes in asset inventory take precedence over a bare upstream commit.",
+  "repositories": [
+    {
+      "name": "DeepLMI",
+      "url": "https://github.com/Hhhzj-7/DeepLMI.git",
+      "commit": "0744133805dc3f51445426b257d0e1f92fd8ec7d",
+      "working_copy_modified": true,
+      "redistribution_status": "reference_only_license_not_established"
+    },
+    {
+      "name": "GCNCRF",
+      "url": "https://github.com/zhaoqi106/GCNCRF.git",
+      "commit": "2f8116f603cdd39fec6ead2e83f71168998e1afc",
+      "working_copy_modified": false,
+      "redistribution_status": "reference_only_license_not_established"
+    },
+    {
+      "name": "GNMFLMI",
+      "url": "https://github.com/haichengyi/GNMFLMI.git",
+      "commit": "5e6ef99dcc278f81842ef787aa9d21a654e02ffc",
+      "working_copy_modified": false,
+      "redistribution_status": "reference_only_license_not_established"
+    },
+    {
+      "name": "HetGAT-LMI",
+      "url": "https://github.com/zhaoqi106/HetGAT-LMI.git",
+      "commit": "5b9f3e4315a5c8c178be9f2eeaf1c0ca93adba7d",
+      "working_copy_modified": false,
+      "redistribution_status": "reference_only_license_not_established"
+    },
+    {
+      "name": "LMI-INGI",
+      "url": "https://github.com/Liu-Lab-Lnu/LMI-INGI.git",
+      "commit": "bf105c0a91d07656e360904d69ad11e755e7e8ec",
+      "working_copy_modified": false,
+      "redistribution_status": "reference_only_license_not_established"
+    },
+    {
+      "name": "LMI-MM",
+      "url": "https://github.com/Li-Aria/LMI-MM.git",
+      "commit": "48a106727afaac79a800729bb8107e29249871a6",
+      "working_copy_modified": false,
+      "redistribution_status": "reference_only_license_not_established"
+    },
+    {
+      "name": "LncMirNet",
+      "url": "https://github.com/abcair/LncMirNet.git",
+      "commit": "a8c9fccbef4409cc26f245b6f242557f23a1e74c",
+      "working_copy_modified": false,
+      "redistribution_status": "reference_only_license_not_established"
+    },
+    {
+      "name": "MCRLMI",
+      "url": "https://github.com/BioMLab/MCRLMI.git",
+      "commit": "05214375deb027dc154acb8cfe07dbd9e678b956",
+      "working_copy_modified": false,
+      "redistribution_status": "reference_only_license_not_established"
+    },
+    {
+      "name": "NDALMA",
+      "url": "https://github.com/Liu-Lab-Lnu/NDALMA.git",
+      "commit": "3eaea00cb07cd5c5cd3ab147b75eaa97a05c6df7",
+      "working_copy_modified": false,
+      "redistribution_status": "reference_only_license_not_established"
+    },
+    {
+      "name": "SLNPM",
+      "url": "https://github.com/BioMedicalBigDataMiningLab/SLNPM.git",
+      "commit": "c8ebe1b4602cbc12c7e4ac1e09b7bd938c5960b5",
+      "working_copy_modified": false,
+      "redistribution_status": "reference_only_license_not_established"
+    },
+    {
+      "name": "SPGNN",
+      "url": "https://github.com/zixwang/SPGNN.git",
+      "commit": "effdd2a096a4ac75f9eda20b2c77c59e1e556fc4",
+      "working_copy_modified": true,
+      "redistribution_status": "reference_only_license_not_established"
+    },
+    {
+      "name": "TEC-LncMir",
+      "url": "https://github.com/tingpeng17/TEC-LncMir.git",
+      "commit": "3dd822137bee075184fcd4d61c92ade23a6b2d57",
+      "working_copy_modified": true,
+      "redistribution_status": "reference_only_license_not_established"
+    },
+    {
+      "name": "miRInter-Trans",
+      "url": "https://github.com/AnacletoLAB/miRInter-Trans.git",
+      "commit": "ebe453bfee375fbffa4828f8904954d2d37e4a33",
+      "working_copy_modified": false,
+      "redistribution_status": "reference_only_license_not_established"
+    },
+    {
+      "name": "preMLI",
+      "url": "https://github.com/BioSequenceAnalysis/preMLI.git",
+      "commit": "54b48fba7adf7fb232ac1a2cec883c596d49d3a3",
+      "working_copy_modified": false,
+      "redistribution_status": "reference_only_license_not_established"
+    },
+    {
+      "name": "DeepLMI",
+      "url": "https://github.com/Hhhzj-7/DeepLMI.git",
+      "commit": "0744133805dc3f51445426b257d0e1f92fd8ec7d",
+      "working_copy_modified": true,
+      "redistribution_status": "reference_only_license_not_established"
+    }
+  ]
+}

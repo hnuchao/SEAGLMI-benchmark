@@ -1,0 +1,9 @@
+protocol	setting	rej1	rej10	ratio1	ratio10	tvd_m	null_m	tvd_l	null_l	ratio10_min
+strict	warm	0.22	0.491	1.0	9.992	0.092	0.101	0.102	0.081	9.96
+strict	blind_lncRNA	0.197	0.939	1.0	9.578	0.091	0.106	0.153	0.059	9.26
+strict	blind_miRNA	0.148	0.55	1.0	9.994	0.091	0.068	0.108	0.086	9.98
+strict	blind_both	0.183	0.93	1.0	9.478	0.103	0.103	0.163	0.09	9.03
+standard	warm	0.016	0.019	1.0	10.0	0.693	0.101	0.731	0.081	10.0
+standard	blind_lncRNA	0.015	0.048	1.0	10.0	0.568	0.103	0.459	0.057	10.0
+standard	blind_miRNA	0.017	0.047	1.0	10.0	0.342	0.068	0.62	0.086	10.0
+standard	blind_both	0.065	0.293	1.0	10.0	0.22	0.099	0.316	0.087	10.0

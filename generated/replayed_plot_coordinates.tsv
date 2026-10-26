@@ -1,0 +1,683 @@
+figure	phase	method	protocol	setting	ratio	metric	contrast	point	lower	upper	uncertainty
+fig_screened_headline	A	seaglmi	strict	warm	1	AUROC		0.6656463792429244	0.6314747109538034	0.6998180475320454	five_fold_sample_SD
+fig_screened_headline	A	seaglmi	standard	warm	1	AUROC		0.8586223955964656	0.8370349160435456	0.8802098751493855	five_fold_sample_SD
+fig_screened_headline	A	sitegbdt	strict	warm	1	AUROC		0.6775364972788918	0.6415001058287012	0.7135728887290823	five_fold_sample_SD
+fig_screened_headline	A	sitegbdt	standard	warm	1	AUROC		0.8702898388796754	0.8488278277561782	0.8917518500031726	five_fold_sample_SD
+fig_screened_headline	A	pairfeat_gbdt	strict	warm	1	AUROC		0.6759200145007866	0.6533838928859081	0.6984561361156651	five_fold_sample_SD
+fig_screened_headline	A	pairfeat_gbdt	standard	warm	1	AUROC		0.8636825134869811	0.8396153922080354	0.8877496347659268	five_fold_sample_SD
+fig_screened_headline	A	deeplmi	strict	warm	1	AUROC		0.5307066464860448	0.5167205051860698	0.5446927877860198	five_fold_sample_SD
+fig_screened_headline	A	deeplmi	standard	warm	1	AUROC		0.7746295942285814	0.7534632231927564	0.7957959652644063	five_fold_sample_SD
+fig_screened_headline	A	spgnn	strict	warm	1	AUROC		0.5373202159957037	0.5085097727150543	0.5661306592763531	five_fold_sample_SD
+fig_screened_headline	A	spgnn	standard	warm	1	AUROC		0.7906805608066403	0.7584887267037205	0.8228723949095601	five_fold_sample_SD
+fig_screened_headline	A	hetgat_lmi_v2	strict	warm	1	AUROC		0.4887618560898749	0.46029677655735596	0.5172269356223939	five_fold_sample_SD
+fig_screened_headline	A	hetgat_lmi_v2	standard	warm	1	AUROC		0.597840373992273	0.5595598258311688	0.6361209221533771	five_fold_sample_SD
+fig_screened_headline	A	mpgk_lmi	strict	warm	1	AUROC		0.5428746016139153	0.5026828359322406	0.58306636729559	five_fold_sample_SD
+fig_screened_headline	A	mpgk_lmi	standard	warm	1	AUROC		0.7613547636449974	0.754786064597436	0.7679234626925588	five_fold_sample_SD
+fig_screened_headline	A	tec_lncmir	strict	warm	1	AUROC		0.49289723387647866	0.4805025200336984	0.5052919477192589	five_fold_sample_SD
+fig_screened_headline	A	tec_lncmir	standard	warm	1	AUROC		0.7555613944828041	0.7141992595999441	0.7969235293656641	five_fold_sample_SD
+fig_screened_headline	A	premli_keras224_v2	strict	warm	1	AUROC		0.5035803195643856	0.4828613460399934	0.5242992930887779	five_fold_sample_SD
+fig_screened_headline	A	premli_keras224_v2	standard	warm	1	AUROC		0.7775807571239579	0.7444739563671459	0.81068755788077	five_fold_sample_SD
+fig_screened_headline	A	slnpm_correct	strict	warm	1	AUROC		0.5253162592724735	0.5078045995031492	0.5428279190417978	five_fold_sample_SD
+fig_screened_headline	A	slnpm_correct	standard	warm	1	AUROC		0.7757423459848714	0.7473532172943345	0.8041314746754082	five_fold_sample_SD
+fig_screened_headline	A	ndalma	strict	warm	1	AUROC		0.5679454205572847	0.5453096035700259	0.5905812375445435	five_fold_sample_SD
+fig_screened_headline	A	ndalma	standard	warm	1	AUROC		0.7781358675909387	0.7619031670178598	0.7943685681640176	five_fold_sample_SD
+fig_screened_headline	A	kmer_lr	strict	warm	1	AUROC		0.5035113643913751	0.47923943078979425	0.527783297992956	five_fold_sample_SD
+fig_screened_headline	A	kmer_lr	standard	warm	1	AUROC		0.743377868443275	0.7246976551587634	0.7620580817277867	five_fold_sample_SD
+fig_screened_headline	A	seed_sites	strict	warm	1	AUROC		0.6433210756397754	0.6287648918298286	0.6578772594497221	five_fold_sample_SD
+fig_screened_headline	A	seed_sites	standard	warm	1	AUROC		0.7094039180030458	0.6808182343183856	0.737989601687706	five_fold_sample_SD
+fig_screened_headline	A	degree_prior	strict	warm	1	AUROC		0.5371005955629273	0.5172469285956333	0.5569542625302214	five_fold_sample_SD
+fig_screened_headline	A	degree_prior	standard	warm	1	AUROC		0.8099388923995416	0.7906519609982599	0.8292258238008234	five_fold_sample_SD
+fig_screened_headline	A	seaglmi	strict	blind_lncRNA	1	AUROC		0.665876912555873	0.6304078784939343	0.7013459466178117	five_fold_sample_SD
+fig_screened_headline	A	seaglmi	standard	blind_lncRNA	1	AUROC		0.7845959334422534	0.7375149033957362	0.8316769634887706	five_fold_sample_SD
+fig_screened_headline	A	sitegbdt	strict	blind_lncRNA	1	AUROC		0.6647941877118468	0.6371994019417784	0.6923889734819153	five_fold_sample_SD
+fig_screened_headline	A	sitegbdt	standard	blind_lncRNA	1	AUROC		0.8083243477679958	0.7910748386473617	0.8255738568886298	five_fold_sample_SD
+fig_screened_headline	A	pairfeat_gbdt	strict	blind_lncRNA	1	AUROC		0.6602168692380244	0.6313327856090287	0.68910095286702	five_fold_sample_SD
+fig_screened_headline	A	pairfeat_gbdt	standard	blind_lncRNA	1	AUROC		0.7790367964815554	0.7559060618629875	0.8021675311001234	five_fold_sample_SD
+fig_screened_headline	A	deeplmi	strict	blind_lncRNA	1	AUROC		0.5138908409789993	0.5042242351365207	0.5235574468214779	five_fold_sample_SD
+fig_screened_headline	A	deeplmi	standard	blind_lncRNA	1	AUROC		0.5651303961076026	0.5347126752760307	0.5955481169391745	five_fold_sample_SD
+fig_screened_headline	A	spgnn	strict	blind_lncRNA	1	AUROC		0.5198892262044205	0.5145864392295076	0.5251920131793333	five_fold_sample_SD
+fig_screened_headline	A	spgnn	standard	blind_lncRNA	1	AUROC		0.664183015171337	0.6274054352378251	0.700960595104849	five_fold_sample_SD
+fig_screened_headline	A	hetgat_lmi_v2	strict	blind_lncRNA	1	AUROC		0.5058315859211027	0.49327423771875023	0.5183889341234551	five_fold_sample_SD
+fig_screened_headline	A	hetgat_lmi_v2	standard	blind_lncRNA	1	AUROC		0.6187415685543068	0.5991028850454727	0.638380252063141	five_fold_sample_SD
+fig_screened_headline	A	mpgk_lmi	strict	blind_lncRNA	1	AUROC		0.5027699665131448	0.4680403283215615	0.537499604704728	five_fold_sample_SD
+fig_screened_headline	A	mpgk_lmi	standard	blind_lncRNA	1	AUROC		0.5641724775939718	0.5284946434326627	0.5998503117552809	five_fold_sample_SD
+fig_screened_headline	A	tec_lncmir	strict	blind_lncRNA	1	AUROC		0.5121568828020869	0.503768756904682	0.5205450086994918	five_fold_sample_SD
+fig_screened_headline	A	tec_lncmir	standard	blind_lncRNA	1	AUROC		0.6194207524369022	0.5826549884518363	0.6561865164219681	five_fold_sample_SD
+fig_screened_headline	A	premli_keras224_v2	strict	blind_lncRNA	1	AUROC		0.4989631765058187	0.48769384943692656	0.5102325035747108	five_fold_sample_SD
+fig_screened_headline	A	premli_keras224_v2	standard	blind_lncRNA	1	AUROC		0.5891430586604279	0.5291374624227112	0.6491486548981447	five_fold_sample_SD
+fig_screened_headline	A	slnpm_correct	strict	blind_lncRNA	1	AUROC		0.5293762869611106	0.5060868537489918	0.5526657201732295	five_fold_sample_SD
+fig_screened_headline	A	slnpm_correct	standard	blind_lncRNA	1	AUROC		0.5519292813861094	0.5149321313981197	0.5889264313740992	five_fold_sample_SD
+fig_screened_headline	A	ndalma	strict	blind_lncRNA	1	AUROC		0.521876985161151	0.5054130607577055	0.5383409095645965	five_fold_sample_SD
+fig_screened_headline	A	ndalma	standard	blind_lncRNA	1	AUROC		0.5706576411659201	0.5399763493267972	0.601338933005043	five_fold_sample_SD
+fig_screened_headline	A	kmer_lr	strict	blind_lncRNA	1	AUROC		0.49796306672489604	0.48272791675262755	0.5131982166971646	five_fold_sample_SD
+fig_screened_headline	A	kmer_lr	standard	blind_lncRNA	1	AUROC		0.5550264519674738	0.519107612625392	0.5909452913095556	five_fold_sample_SD
+fig_screened_headline	A	seed_sites	strict	blind_lncRNA	1	AUROC		0.6436269416844284	0.6144332811085866	0.6728206022602701	five_fold_sample_SD
+fig_screened_headline	A	seed_sites	standard	blind_lncRNA	1	AUROC		0.7012384672238366	0.6337035083008495	0.7687734261468238	five_fold_sample_SD
+fig_screened_headline	A	degree_prior	strict	blind_lncRNA	1	AUROC		0.5207316055472452	0.5122673020446435	0.5291959090498468	five_fold_sample_SD
+fig_screened_headline	A	degree_prior	standard	blind_lncRNA	1	AUROC		0.5967084006196841	0.580034689579671	0.6133821116596972	five_fold_sample_SD
+fig_screened_headline	A	seaglmi	strict	blind_miRNA	1	AUROC		0.6687528183987655	0.6593894825012757	0.6781161542962554	five_fold_sample_SD
+fig_screened_headline	A	seaglmi	standard	blind_miRNA	1	AUROC		0.8205509281597833	0.8167082946963017	0.8243935616232648	five_fold_sample_SD
+fig_screened_headline	A	sitegbdt	strict	blind_miRNA	1	AUROC		0.6640454030348739	0.6505834188184321	0.6775073872513158	five_fold_sample_SD
+fig_screened_headline	A	sitegbdt	standard	blind_miRNA	1	AUROC		0.8345546264354455	0.8231185762160796	0.8459906766548114	five_fold_sample_SD
+fig_screened_headline	A	pairfeat_gbdt	strict	blind_miRNA	1	AUROC		0.6732531444474228	0.647851542471997	0.6986547464228485	five_fold_sample_SD
+fig_screened_headline	A	pairfeat_gbdt	standard	blind_miRNA	1	AUROC		0.8287128861362643	0.8153132430931703	0.8421125291793582	five_fold_sample_SD
+fig_screened_headline	A	deeplmi	strict	blind_miRNA	1	AUROC		0.5126413998746693	0.49291771418064545	0.5323650855686931	five_fold_sample_SD
+fig_screened_headline	A	deeplmi	standard	blind_miRNA	1	AUROC		0.7386486877465708	0.7242673687409948	0.7530300067521467	five_fold_sample_SD
+fig_screened_headline	A	spgnn	strict	blind_miRNA	1	AUROC		0.5143230369668306	0.5053243641694392	0.523321709764222	five_fold_sample_SD
+fig_screened_headline	A	spgnn	standard	blind_miRNA	1	AUROC		0.7527773932613707	0.7305348252461935	0.7750199612765479	five_fold_sample_SD
+fig_screened_headline	A	hetgat_lmi_v2	strict	blind_miRNA	1	AUROC		0.4948874041617463	0.4793965305594928	0.5103782777639998	five_fold_sample_SD
+fig_screened_headline	A	hetgat_lmi_v2	standard	blind_miRNA	1	AUROC		0.5201137917590193	0.5097289773271971	0.5304986061908414	five_fold_sample_SD
+fig_screened_headline	A	mpgk_lmi	strict	blind_miRNA	1	AUROC		0.5189351939313793	0.5071308385330123	0.5307395493297463	five_fold_sample_SD
+fig_screened_headline	A	mpgk_lmi	standard	blind_miRNA	1	AUROC		0.667023405966167	0.6277014151848025	0.7063453967475316	five_fold_sample_SD
+fig_screened_headline	A	tec_lncmir	strict	blind_miRNA	1	AUROC		0.5110431404159206	0.4995148213985992	0.5225714594332419	five_fold_sample_SD
+fig_screened_headline	A	tec_lncmir	standard	blind_miRNA	1	AUROC		0.677006374994416	0.6479987891891066	0.7060139607997253	five_fold_sample_SD
+fig_screened_headline	A	premli_keras224_v2	strict	blind_miRNA	1	AUROC		0.5046205937368731	0.4876664845959962	0.52157470287775	five_fold_sample_SD
+fig_screened_headline	A	premli_keras224_v2	standard	blind_miRNA	1	AUROC		0.6981112218742075	0.6830215275617387	0.7132009161866762	five_fold_sample_SD
+fig_screened_headline	A	slnpm_correct	strict	blind_miRNA	1	AUROC		0.5226085957866169	0.5022420877732132	0.5429751038000206	five_fold_sample_SD
+fig_screened_headline	A	slnpm_correct	standard	blind_miRNA	1	AUROC		0.6572376634631023	0.6381508610003184	0.6763244659258862	five_fold_sample_SD
+fig_screened_headline	A	ndalma	strict	blind_miRNA	1	AUROC		0.5314574298221382	0.5115345915765163	0.5513802680677601	five_fold_sample_SD
+fig_screened_headline	A	ndalma	standard	blind_miRNA	1	AUROC		0.647274757723132	0.6348612537101302	0.6596882617361338	five_fold_sample_SD
+fig_screened_headline	A	kmer_lr	strict	blind_miRNA	1	AUROC		0.5191615986335651	0.49679756928294955	0.5415256279841807	five_fold_sample_SD
+fig_screened_headline	A	kmer_lr	standard	blind_miRNA	1	AUROC		0.6897835433380081	0.6645342934623946	0.7150327932136216	five_fold_sample_SD
+fig_screened_headline	A	seed_sites	strict	blind_miRNA	1	AUROC		0.6349206646964617	0.6207519223122332	0.6490894070806902	five_fold_sample_SD
+fig_screened_headline	A	seed_sites	standard	blind_miRNA	1	AUROC		0.704072605079062	0.6824043519004114	0.7257408582577126	five_fold_sample_SD
+fig_screened_headline	A	degree_prior	strict	blind_miRNA	1	AUROC		0.5206065808227995	0.5054572668259062	0.5357558948196929	five_fold_sample_SD
+fig_screened_headline	A	degree_prior	standard	blind_miRNA	1	AUROC		0.6697035143955714	0.6519178296415186	0.6874891991496243	five_fold_sample_SD
+fig_screened_headline	A	seaglmi	strict	blind_both	1	AUROC		0.6630764232077657	0.6292285366100676	0.6969243098054638	five_fold_sample_SD
+fig_screened_headline	A	seaglmi	standard	blind_both	1	AUROC		0.7214873651581316	0.6764997520362783	0.7664749782799849	five_fold_sample_SD
+fig_screened_headline	A	sitegbdt	strict	blind_both	1	AUROC		0.677319295927605	0.6228437361224096	0.7317948557328003	five_fold_sample_SD
+fig_screened_headline	A	sitegbdt	standard	blind_both	1	AUROC		0.7022818632688386	0.6486541853200223	0.7559095412176549	five_fold_sample_SD
+fig_screened_headline	A	pairfeat_gbdt	strict	blind_both	1	AUROC		0.6338433707435407	0.5967477495783033	0.670938991908778	five_fold_sample_SD
+fig_screened_headline	A	pairfeat_gbdt	standard	blind_both	1	AUROC		0.6772549607202467	0.6193507968420915	0.7351591245984019	five_fold_sample_SD
+fig_screened_headline	A	deeplmi	strict	blind_both	1	AUROC		0.48109136964685256	0.4436287335801395	0.5185540057135656	five_fold_sample_SD
+fig_screened_headline	A	deeplmi	standard	blind_both	1	AUROC		0.4911769183539357	0.40863449192409124	0.5737193447837802	five_fold_sample_SD
+fig_screened_headline	A	spgnn	strict	blind_both	1	AUROC		0.5071531564606735	0.47939253972402385	0.5349137731973231	five_fold_sample_SD
+fig_screened_headline	A	spgnn	standard	blind_both	1	AUROC		0.5657445082708048	0.502555869335434	0.6289331472061757	five_fold_sample_SD
+fig_screened_headline	A	hetgat_lmi_v2	strict	blind_both	1	AUROC		0.4836096167913806	0.4223695543779873	0.5448496792047739	five_fold_sample_SD
+fig_screened_headline	A	hetgat_lmi_v2	standard	blind_both	1	AUROC		0.48151100039896716	0.41238482516285924	0.5506371756350751	five_fold_sample_SD
+fig_screened_headline	A	mpgk_lmi	strict	blind_both	1	AUROC		0.4830450358784807	0.4363343390374992	0.5297557327194622	five_fold_sample_SD
+fig_screened_headline	A	mpgk_lmi	standard	blind_both	1	AUROC		0.464819879384224	0.39410549185469224	0.5355342669137557	five_fold_sample_SD
+fig_screened_headline	A	tec_lncmir	strict	blind_both	1	AUROC		0.4766456527121271	0.41871135103175344	0.5345799543925007	five_fold_sample_SD
+fig_screened_headline	A	tec_lncmir	standard	blind_both	1	AUROC		0.5550009631370637	0.5097633805005385	0.6002385457735889	five_fold_sample_SD
+fig_screened_headline	A	premli_keras224_v2	strict	blind_both	1	AUROC		0.49063105539524676	0.4439204321946641	0.5373416785958294	five_fold_sample_SD
+fig_screened_headline	A	premli_keras224_v2	standard	blind_both	1	AUROC		0.44825769290986406	0.38360653079078155	0.5129088550289466	five_fold_sample_SD
+fig_screened_headline	A	slnpm_correct	strict	blind_both	1	AUROC		0.5	0.5	0.5	five_fold_sample_SD
+fig_screened_headline	A	slnpm_correct	standard	blind_both	1	AUROC		0.5	0.5	0.5	five_fold_sample_SD
+fig_screened_headline	A	ndalma	strict	blind_both	1	AUROC		0.5	0.5	0.5	five_fold_sample_SD
+fig_screened_headline	A	ndalma	standard	blind_both	1	AUROC		0.5	0.5	0.5	five_fold_sample_SD
+fig_screened_headline	A	kmer_lr	strict	blind_both	1	AUROC		0.4825892301389848	0.46674907083214656	0.49842938944582305	five_fold_sample_SD
+fig_screened_headline	A	kmer_lr	standard	blind_both	1	AUROC		0.5182580585660939	0.46411257614437307	0.5724035409878147	five_fold_sample_SD
+fig_screened_headline	A	seed_sites	strict	blind_both	1	AUROC		0.6619119467275978	0.6093060542147376	0.714517839240458	five_fold_sample_SD
+fig_screened_headline	A	seed_sites	standard	blind_both	1	AUROC		0.6723915930475876	0.6379828297395922	0.7068003563555829	five_fold_sample_SD
+fig_screened_headline	A	degree_prior	strict	blind_both	1	AUROC		0.5	0.5	0.5	five_fold_sample_SD
+fig_screened_headline	A	degree_prior	standard	blind_both	1	AUROC		0.5	0.5	0.5	five_fold_sample_SD
+fig_screened_headline_AP	A	seaglmi	strict	warm	1	AP		0.6648960818482192	0.6465472693734944	0.6832448943229441	five_fold_sample_SD
+fig_screened_headline_AP	A	seaglmi	standard	warm	1	AP		0.8688529805528518	0.8472441869275715	0.890461774178132	five_fold_sample_SD
+fig_screened_headline_AP	A	sitegbdt	strict	warm	1	AP		0.679347192125969	0.6429159736014533	0.7157784106504846	five_fold_sample_SD
+fig_screened_headline_AP	A	sitegbdt	standard	warm	1	AP		0.8814986857266526	0.862108111411867	0.9008892600414381	five_fold_sample_SD
+fig_screened_headline_AP	A	pairfeat_gbdt	strict	warm	1	AP		0.6719784159861251	0.6463265547215272	0.6976302772507229	five_fold_sample_SD
+fig_screened_headline_AP	A	pairfeat_gbdt	standard	warm	1	AP		0.8764631425917546	0.8570506733749896	0.8958756118085196	five_fold_sample_SD
+fig_screened_headline_AP	A	deeplmi	strict	warm	1	AP		0.5459424675623342	0.5218077540889657	0.5700771810357027	five_fold_sample_SD
+fig_screened_headline_AP	A	deeplmi	standard	warm	1	AP		0.7998822086048267	0.7839299697193787	0.8158344474902748	five_fold_sample_SD
+fig_screened_headline_AP	A	spgnn	strict	warm	1	AP		0.5532678276210836	0.5228212354905383	0.583714419751629	five_fold_sample_SD
+fig_screened_headline_AP	A	spgnn	standard	warm	1	AP		0.8164210207719236	0.7970838634446453	0.8357581780992018	five_fold_sample_SD
+fig_screened_headline_AP	A	hetgat_lmi_v2	strict	warm	1	AP		0.5018758688383474	0.47453872495351407	0.5292130127231809	five_fold_sample_SD
+fig_screened_headline_AP	A	hetgat_lmi_v2	standard	warm	1	AP		0.6039307008450148	0.5629867665969465	0.6448746350930831	five_fold_sample_SD
+fig_screened_headline_AP	A	mpgk_lmi	strict	warm	1	AP		0.5467399474250254	0.49902300713174147	0.5944568877183093	five_fold_sample_SD
+fig_screened_headline_AP	A	mpgk_lmi	standard	warm	1	AP		0.787813076673749	0.7662675741741224	0.8093585791733756	five_fold_sample_SD
+fig_screened_headline_AP	A	tec_lncmir	strict	warm	1	AP		0.5006105481333948	0.48518533299161454	0.516035763275175	five_fold_sample_SD
+fig_screened_headline_AP	A	tec_lncmir	standard	warm	1	AP		0.7605014190172963	0.7325965667437323	0.7884062712908603	five_fold_sample_SD
+fig_screened_headline_AP	A	premli_keras224_v2	strict	warm	1	AP		0.5223243220258494	0.5105402164540064	0.5341084275976925	five_fold_sample_SD
+fig_screened_headline_AP	A	premli_keras224_v2	standard	warm	1	AP		0.7977314010579414	0.769690112580281	0.8257726895356018	five_fold_sample_SD
+fig_screened_headline_AP	A	slnpm_correct	strict	warm	1	AP		0.5277640631530706	0.5008417948411712	0.5546863314649699	five_fold_sample_SD
+fig_screened_headline_AP	A	slnpm_correct	standard	warm	1	AP		0.8053295168724096	0.7857519405267764	0.8249070932180428	five_fold_sample_SD
+fig_screened_headline_AP	A	ndalma	strict	warm	1	AP		0.565036630560801	0.5463741394708307	0.5836991216507713	five_fold_sample_SD
+fig_screened_headline_AP	A	ndalma	standard	warm	1	AP		0.7752974915008327	0.759739476847812	0.7908555061538535	five_fold_sample_SD
+fig_screened_headline_AP	A	kmer_lr	strict	warm	1	AP		0.5141675777214245	0.5009558406839527	0.5273793147588963	five_fold_sample_SD
+fig_screened_headline_AP	A	kmer_lr	standard	warm	1	AP		0.7682874647299356	0.7488113947138945	0.7877635347459767	five_fold_sample_SD
+fig_screened_headline_AP	A	seed_sites	strict	warm	1	AP		0.6184084704385068	0.6001414117847259	0.6366755290922876	five_fold_sample_SD
+fig_screened_headline_AP	A	seed_sites	standard	warm	1	AP		0.7148153248949469	0.6764722496593841	0.7531584001305097	five_fold_sample_SD
+fig_screened_headline_AP	A	degree_prior	strict	warm	1	AP		0.5592754813130093	0.538847445336955	0.5797035172890636	five_fold_sample_SD
+fig_screened_headline_AP	A	degree_prior	standard	warm	1	AP		0.8291554519900481	0.8142111148695839	0.8440997891105124	five_fold_sample_SD
+fig_screened_headline_AP	A	seaglmi	strict	blind_lncRNA	1	AP		0.6655242758587895	0.6351110790230329	0.6959374726945461	five_fold_sample_SD
+fig_screened_headline_AP	A	seaglmi	standard	blind_lncRNA	1	AP		0.7829549087665806	0.7197165279905516	0.8461932895426095	five_fold_sample_SD
+fig_screened_headline_AP	A	sitegbdt	strict	blind_lncRNA	1	AP		0.6678718672019176	0.6192073874809976	0.7165363469228376	five_fold_sample_SD
+fig_screened_headline_AP	A	sitegbdt	standard	blind_lncRNA	1	AP		0.8024309390349046	0.7690091264771222	0.835852751592687	five_fold_sample_SD
+fig_screened_headline_AP	A	pairfeat_gbdt	strict	blind_lncRNA	1	AP		0.6801711114198772	0.6496613581853536	0.7106808646544007	five_fold_sample_SD
+fig_screened_headline_AP	A	pairfeat_gbdt	standard	blind_lncRNA	1	AP		0.773223776934439	0.7280458954606565	0.8184016584082215	five_fold_sample_SD
+fig_screened_headline_AP	A	deeplmi	strict	blind_lncRNA	1	AP		0.5204120234458524	0.5085166859752346	0.5323073609164701	five_fold_sample_SD
+fig_screened_headline_AP	A	deeplmi	standard	blind_lncRNA	1	AP		0.5910312783432919	0.5512716675858098	0.6307908891007741	five_fold_sample_SD
+fig_screened_headline_AP	A	spgnn	strict	blind_lncRNA	1	AP		0.52181646450821	0.5109716694691344	0.5326612595472855	five_fold_sample_SD
+fig_screened_headline_AP	A	spgnn	standard	blind_lncRNA	1	AP		0.6628976316055659	0.6434436608267046	0.6823516023844273	five_fold_sample_SD
+fig_screened_headline_AP	A	hetgat_lmi_v2	strict	blind_lncRNA	1	AP		0.5099037966317278	0.4929031982865752	0.5269043949768805	five_fold_sample_SD
+fig_screened_headline_AP	A	hetgat_lmi_v2	standard	blind_lncRNA	1	AP		0.6082156661925565	0.5942022254770997	0.6222291069080134	five_fold_sample_SD
+fig_screened_headline_AP	A	mpgk_lmi	strict	blind_lncRNA	1	AP		0.509012388561162	0.4775317375780844	0.5404930395442397	five_fold_sample_SD
+fig_screened_headline_AP	A	mpgk_lmi	standard	blind_lncRNA	1	AP		0.5794320741345148	0.5422890956157193	0.6165750526533104	five_fold_sample_SD
+fig_screened_headline_AP	A	tec_lncmir	strict	blind_lncRNA	1	AP		0.5140553405732569	0.5046662020809805	0.5234444790655333	five_fold_sample_SD
+fig_screened_headline_AP	A	tec_lncmir	standard	blind_lncRNA	1	AP		0.6252951439109562	0.5550244507770258	0.6955658370448866	five_fold_sample_SD
+fig_screened_headline_AP	A	premli_keras224_v2	strict	blind_lncRNA	1	AP		0.5072598676242457	0.4905265253240767	0.5239932099244147	five_fold_sample_SD
+fig_screened_headline_AP	A	premli_keras224_v2	standard	blind_lncRNA	1	AP		0.5941997926975675	0.5285164752341787	0.6598831101609564	five_fold_sample_SD
+fig_screened_headline_AP	A	slnpm_correct	strict	blind_lncRNA	1	AP		0.536573054309738	0.5056020168123656	0.5675440918071104	five_fold_sample_SD
+fig_screened_headline_AP	A	slnpm_correct	standard	blind_lncRNA	1	AP		0.5897861746292254	0.5237756694269657	0.6557966798314852	five_fold_sample_SD
+fig_screened_headline_AP	A	ndalma	strict	blind_lncRNA	1	AP		0.5269636900118141	0.5062877561345076	0.5476396238891206	five_fold_sample_SD
+fig_screened_headline_AP	A	ndalma	standard	blind_lncRNA	1	AP		0.5917372991618681	0.5621738259764028	0.6213007723473335	five_fold_sample_SD
+fig_screened_headline_AP	A	kmer_lr	strict	blind_lncRNA	1	AP		0.4908731909201962	0.4772000855903488	0.5045462962500435	five_fold_sample_SD
+fig_screened_headline_AP	A	kmer_lr	standard	blind_lncRNA	1	AP		0.5451044003253485	0.4920161411204102	0.5981926595302868	five_fold_sample_SD
+fig_screened_headline_AP	A	seed_sites	strict	blind_lncRNA	1	AP		0.6172228398928058	0.5952481938094174	0.6391974859761942	five_fold_sample_SD
+fig_screened_headline_AP	A	seed_sites	standard	blind_lncRNA	1	AP		0.7008353430315221	0.6300752971725705	0.7715953888904736	five_fold_sample_SD
+fig_screened_headline_AP	A	degree_prior	strict	blind_lncRNA	1	AP		0.5167724495811834	0.5086066092541771	0.5249382899081897	five_fold_sample_SD
+fig_screened_headline_AP	A	degree_prior	standard	blind_lncRNA	1	AP		0.6224466341030096	0.6104880459126844	0.6344052222933348	five_fold_sample_SD
+fig_screened_headline_AP	A	seaglmi	strict	blind_miRNA	1	AP		0.6688339285168617	0.6528775091216182	0.6847903479121052	five_fold_sample_SD
+fig_screened_headline_AP	A	seaglmi	standard	blind_miRNA	1	AP		0.8301601204237562	0.8242832215567314	0.836037019290781	five_fold_sample_SD
+fig_screened_headline_AP	A	sitegbdt	strict	blind_miRNA	1	AP		0.662439481512106	0.6501603913483012	0.6747185716759108	five_fold_sample_SD
+fig_screened_headline_AP	A	sitegbdt	standard	blind_miRNA	1	AP		0.842403732865219	0.8317793235276922	0.8530281422027457	five_fold_sample_SD
+fig_screened_headline_AP	A	pairfeat_gbdt	strict	blind_miRNA	1	AP		0.6732480353023129	0.6598831185441395	0.6866129520604863	five_fold_sample_SD
+fig_screened_headline_AP	A	pairfeat_gbdt	standard	blind_miRNA	1	AP		0.83539220477215	0.8250268154866207	0.8457575940576794	five_fold_sample_SD
+fig_screened_headline_AP	A	deeplmi	strict	blind_miRNA	1	AP		0.5247111161753631	0.5116507367143528	0.5377714956363735	five_fold_sample_SD
+fig_screened_headline_AP	A	deeplmi	standard	blind_miRNA	1	AP		0.760907158877506	0.750142627920944	0.7716716898340681	five_fold_sample_SD
+fig_screened_headline_AP	A	spgnn	strict	blind_miRNA	1	AP		0.5157468742748081	0.510260351963662	0.5212333965859542	five_fold_sample_SD
+fig_screened_headline_AP	A	spgnn	standard	blind_miRNA	1	AP		0.7716899900221497	0.7524423534066925	0.7909376266376068	five_fold_sample_SD
+fig_screened_headline_AP	A	hetgat_lmi_v2	strict	blind_miRNA	1	AP		0.49951824021999397	0.48680461919546536	0.5122318612445226	five_fold_sample_SD
+fig_screened_headline_AP	A	hetgat_lmi_v2	standard	blind_miRNA	1	AP		0.526123067983371	0.5071739036254042	0.545072232341338	five_fold_sample_SD
+fig_screened_headline_AP	A	mpgk_lmi	strict	blind_miRNA	1	AP		0.5231428911719649	0.5163795677395469	0.5299062146043829	five_fold_sample_SD
+fig_screened_headline_AP	A	mpgk_lmi	standard	blind_miRNA	1	AP		0.696931746951228	0.6607819411482343	0.7330815527542216	five_fold_sample_SD
+fig_screened_headline_AP	A	tec_lncmir	strict	blind_miRNA	1	AP		0.5164485438040669	0.5067393053865051	0.5261577822216287	five_fold_sample_SD
+fig_screened_headline_AP	A	tec_lncmir	standard	blind_miRNA	1	AP		0.6889985073906989	0.6417366304119073	0.7362603843694905	five_fold_sample_SD
+fig_screened_headline_AP	A	premli_keras224_v2	strict	blind_miRNA	1	AP		0.507865013890909	0.4852748322124541	0.5304551955693638	five_fold_sample_SD
+fig_screened_headline_AP	A	premli_keras224_v2	standard	blind_miRNA	1	AP		0.730685037479	0.7170128037796399	0.7443572711783601	five_fold_sample_SD
+fig_screened_headline_AP	A	slnpm_correct	strict	blind_miRNA	1	AP		0.5245958775177298	0.5132175728843624	0.5359741821510973	five_fold_sample_SD
+fig_screened_headline_AP	A	slnpm_correct	standard	blind_miRNA	1	AP		0.7286994661149636	0.7161534384171517	0.7412454938127755	five_fold_sample_SD
+fig_screened_headline_AP	A	ndalma	strict	blind_miRNA	1	AP		0.5275981898136555	0.5109532963628245	0.5442430832644864	five_fold_sample_SD
+fig_screened_headline_AP	A	ndalma	standard	blind_miRNA	1	AP		0.6928871110793912	0.6757394751132187	0.7100347470455636	five_fold_sample_SD
+fig_screened_headline_AP	A	kmer_lr	strict	blind_miRNA	1	AP		0.5158937759059332	0.49677711523840257	0.5350104365734639	five_fold_sample_SD
+fig_screened_headline_AP	A	kmer_lr	standard	blind_miRNA	1	AP		0.6924469193802061	0.670482376651745	0.7144114621086671	five_fold_sample_SD
+fig_screened_headline_AP	A	seed_sites	strict	blind_miRNA	1	AP		0.5962740782799951	0.584165301696314	0.6083828548636763	five_fold_sample_SD
+fig_screened_headline_AP	A	seed_sites	standard	blind_miRNA	1	AP		0.7049152801235793	0.6701327912513921	0.7396977689957664	five_fold_sample_SD
+fig_screened_headline_AP	A	degree_prior	strict	blind_miRNA	1	AP		0.516543855156882	0.5087842522892289	0.524303458024535	five_fold_sample_SD
+fig_screened_headline_AP	A	degree_prior	standard	blind_miRNA	1	AP		0.7230890356472089	0.7069632086209922	0.7392148626734257	five_fold_sample_SD
+fig_screened_headline_AP	A	seaglmi	strict	blind_both	1	AP		0.6861440622179937	0.6536769339982673	0.7186111904377201	five_fold_sample_SD
+fig_screened_headline_AP	A	seaglmi	standard	blind_both	1	AP		0.7417638893428836	0.6902358718499801	0.7932919068357871	five_fold_sample_SD
+fig_screened_headline_AP	A	sitegbdt	strict	blind_both	1	AP		0.660022034088869	0.5967178097127543	0.7233262584649836	five_fold_sample_SD
+fig_screened_headline_AP	A	sitegbdt	standard	blind_both	1	AP		0.704722406915685	0.6644913101635858	0.7449535036677842	five_fold_sample_SD
+fig_screened_headline_AP	A	pairfeat_gbdt	strict	blind_both	1	AP		0.6485122794344862	0.6214744918549777	0.6755500670139947	five_fold_sample_SD
+fig_screened_headline_AP	A	pairfeat_gbdt	standard	blind_both	1	AP		0.6861652498840508	0.6242878050649352	0.7480426947031664	five_fold_sample_SD
+fig_screened_headline_AP	A	deeplmi	strict	blind_both	1	AP		0.507674612373998	0.4797495757360243	0.5355996490119718	five_fold_sample_SD
+fig_screened_headline_AP	A	deeplmi	standard	blind_both	1	AP		0.5396192242698541	0.4637812955415055	0.6154571529982027	five_fold_sample_SD
+fig_screened_headline_AP	A	spgnn	strict	blind_both	1	AP		0.5194375916473991	0.4752186160386935	0.5636565672561047	five_fold_sample_SD
+fig_screened_headline_AP	A	spgnn	standard	blind_both	1	AP		0.569457231010467	0.5155842194090703	0.6233302426118636	five_fold_sample_SD
+fig_screened_headline_AP	A	hetgat_lmi_v2	strict	blind_both	1	AP		0.514317175445836	0.46682854130400325	0.5618058095876687	five_fold_sample_SD
+fig_screened_headline_AP	A	hetgat_lmi_v2	standard	blind_both	1	AP		0.504118761507052	0.45679581444221234	0.5514417085718918	five_fold_sample_SD
+fig_screened_headline_AP	A	mpgk_lmi	strict	blind_both	1	AP		0.5116497693947386	0.4534637852604451	0.569835753529032	five_fold_sample_SD
+fig_screened_headline_AP	A	mpgk_lmi	standard	blind_both	1	AP		0.48760778115391334	0.4298498298380628	0.5453657324697639	five_fold_sample_SD
+fig_screened_headline_AP	A	tec_lncmir	strict	blind_both	1	AP		0.5019992959865366	0.4540759637036744	0.5499226282693987	five_fold_sample_SD
+fig_screened_headline_AP	A	tec_lncmir	standard	blind_both	1	AP		0.5622991900525464	0.5253260666405122	0.5992723134645805	five_fold_sample_SD
+fig_screened_headline_AP	A	premli_keras224_v2	strict	blind_both	1	AP		0.5034413412154496	0.4592483893258333	0.5476342931050658	five_fold_sample_SD
+fig_screened_headline_AP	A	premli_keras224_v2	standard	blind_both	1	AP		0.4871032620559193	0.434339520323168	0.5398670037886706	five_fold_sample_SD
+fig_screened_headline_AP	A	slnpm_correct	strict	blind_both	1	AP		0.5	0.5	0.5	five_fold_sample_SD
+fig_screened_headline_AP	A	slnpm_correct	standard	blind_both	1	AP		0.5	0.5	0.5	five_fold_sample_SD
+fig_screened_headline_AP	A	ndalma	strict	blind_both	1	AP		0.5	0.5	0.5	five_fold_sample_SD
+fig_screened_headline_AP	A	ndalma	standard	blind_both	1	AP		0.5	0.5	0.5	five_fold_sample_SD
+fig_screened_headline_AP	A	kmer_lr	strict	blind_both	1	AP		0.49405567791232385	0.4799768349943781	0.5081345208302697	five_fold_sample_SD
+fig_screened_headline_AP	A	kmer_lr	standard	blind_both	1	AP		0.5322691670204017	0.4709590695826008	0.5935792644582026	five_fold_sample_SD
+fig_screened_headline_AP	A	seed_sites	strict	blind_both	1	AP		0.6574591727915158	0.605651410184108	0.7092669353989236	five_fold_sample_SD
+fig_screened_headline_AP	A	seed_sites	standard	blind_both	1	AP		0.6794054570676419	0.6309106792419356	0.7279002348933482	five_fold_sample_SD
+fig_screened_headline_AP	A	degree_prior	strict	blind_both	1	AP		0.5	0.5	0.5	five_fold_sample_SD
+fig_screened_headline_AP	A	degree_prior	standard	blind_both	1	AP		0.5	0.5	0.5	five_fold_sample_SD
+fig_screened_source_CI	C1	seaglmi	strict	source	1	AUROC		0.6673160978231657	0.6509670111578229	0.6818217686846835	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI	C1	sitegbdt	strict	source	1	AUROC		0.6674812147272239	0.6519788304800039	0.6817440735098725	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI	C1	pairfeat_gbdt	strict	source	1	AUROC		0.6602719699005644	0.6449298225670319	0.674557256041146	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI	C1	deeplmi	strict	source	1	AUROC		0.5090734748723462	0.4877280225058903	0.5285871161431994	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI	C1	spgnn	strict	source	1	AUROC		0.5321700618113411	0.5177077759964056	0.5469316880067058	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI	C1	hetgat_lmi_v2	strict	source	1	AUROC		0.5028897608169847	0.48948979090024763	0.5173669251201652	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI	C1	mpgk_lmi	strict	source	1	AUROC		0.5255146466003763	0.5084161507928722	0.541010196273662	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI	C1	tec_lncmir	strict	source	1	AUROC		0.5037918839021768	0.4897664189574828	0.5175231887441489	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI	C1	premli_keras224_v2	strict	source	1	AUROC		0.5090068261220102	0.48908442839742555	0.5264162968657636	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI	C1	slnpm_correct	strict	source	1	AUROC		0.5124626713249126	0.49238507206424853	0.5310905337703536	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI	C1	ndalma	strict	source	1	AUROC		0.5281646869121204	0.5064780752906697	0.5462120798759929	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI	C1	kmer_lr	strict	source	1	AUROC		0.5068822359580757	0.4906664601053539	0.5216233386280453	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI	C1	seed_sites	strict	source	1	AUROC		0.630149744692287	0.6141350009478814	0.6443310188844351	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI	C1	degree_prior	strict	source	1	AUROC		0.5164744961031981	0.4935083664939336	0.5362569328381868	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI	C1	seaglmi	strict	source	1	AP		0.6689816982715029	0.653891396356567	0.6828499718806753	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI	C1	sitegbdt	strict	source	1	AP		0.6597261346960812	0.6460149985360796	0.673337841631826	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI	C1	pairfeat_gbdt	strict	source	1	AP		0.6586665448046207	0.6445986904036323	0.6720933116809318	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI	C1	deeplmi	strict	source	1	AP		0.5174761675360817	0.5003730168131454	0.5362967673437693	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI	C1	spgnn	strict	source	1	AP		0.5335319396344765	0.5209580501915689	0.54767140314505	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI	C1	hetgat_lmi_v2	strict	source	1	AP		0.5049386364251012	0.495498098709747	0.5187096677434286	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI	C1	mpgk_lmi	strict	source	1	AP		0.528766385052354	0.5170910995247986	0.5434160711586674	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI	C1	tec_lncmir	strict	source	1	AP		0.5051220950764538	0.4950973850624642	0.5195979897800019	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI	C1	premli_keras224_v2	strict	source	1	AP		0.5151223236283409	0.4989649477247677	0.5328938941932656	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI	C1	slnpm_correct	strict	source	1	AP		0.5122717171658906	0.4976509683455642	0.529733952699179	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI	C1	ndalma	strict	source	1	AP		0.5365710035792778	0.5212103553055263	0.5530596623172792	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI	C1	kmer_lr	strict	source	1	AP		0.5096692538093763	0.49893669758413456	0.5241994730015888	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI	C1	seed_sites	strict	source	1	AP		0.5942077710045602	0.5821045527786495	0.6080760839142492	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI	C1	degree_prior	strict	source	1	AP		0.532477022473084	0.5141543162400263	0.5515838720823838	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI	C1	seaglmi	standard	source	1	AUROC		0.8274579951625907	0.814248472548366	0.8397416482030039	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI	C1	sitegbdt	standard	source	1	AUROC		0.8471901101854341	0.8351081280795218	0.8584228989221742	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI	C1	pairfeat_gbdt	standard	source	1	AUROC		0.845108304219296	0.8330010944969674	0.8564395272535454	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI	C1	deeplmi	standard	source	1	AUROC		0.7379431335662455	0.7188152485955696	0.7559192506882714	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI	C1	spgnn	standard	source	1	AUROC		0.7722825047030369	0.756695611880904	0.7858481449308125	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI	C1	hetgat_lmi_v2	standard	source	1	AUROC		0.6167299113141629	0.6023957072625895	0.6331262662398864	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI	C1	mpgk_lmi	standard	source	1	AUROC		0.6790142434829347	0.660829743580327	0.6962290426788635	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI	C1	tec_lncmir	standard	source	1	AUROC		0.6915556033324376	0.6740013372047846	0.7074293037518333	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI	C1	premli_keras224_v2	standard	source	1	AUROC		0.7184257995162592	0.6997868016032674	0.7352787307222353	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI	C1	slnpm_correct	standard	source	1	AUROC		0.6964278419779629	0.6766846816566031	0.7142471540075157	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI	C1	ndalma	standard	source	1	AUROC		0.6650031711905402	0.6429856997029316	0.6826378302256003	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI	C1	kmer_lr	standard	source	1	AUROC		0.6921511421660845	0.6730463015658505	0.710301652217643	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI	C1	seed_sites	standard	source	1	AUROC		0.6937176027949475	0.6774079855308243	0.7084052125530989	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI	C1	degree_prior	standard	source	1	AUROC		0.6814626175759205	0.6579712180363251	0.70090338442773	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI	C1	seaglmi	standard	source	1	AP		0.830370511105595	0.817174976766199	0.8417761988579164	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI	C1	sitegbdt	standard	source	1	AP		0.8519785453964077	0.8394323297011664	0.8626740809897157	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI	C1	pairfeat_gbdt	standard	source	1	AP		0.8464925351872006	0.8344500079990957	0.8572656979567347	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI	C1	deeplmi	standard	source	1	AP		0.7604552297224823	0.7404314872998776	0.7771305102795298	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI	C1	spgnn	standard	source	1	AP		0.7912265039567078	0.7752136508527501	0.8046848606691468	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI	C1	hetgat_lmi_v2	standard	source	1	AP		0.5989159048464974	0.5869673942171895	0.6146216506307723	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI	C1	mpgk_lmi	standard	source	1	AP		0.707868259212857	0.688356438358821	0.7247096806843839	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI	C1	tec_lncmir	standard	source	1	AP		0.7055225099999065	0.689636765612608	0.7200015945860995	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI	C1	premli_keras224_v2	standard	source	1	AP		0.7474586274718291	0.727333215847373	0.7638089177213258	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI	C1	slnpm_correct	standard	source	1	AP		0.7216676747538334	0.7039246867893318	0.7380206659682719	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI	C1	ndalma	standard	source	1	AP		0.683536826413722	0.6650431933548885	0.6993153164026015	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI	C1	kmer_lr	standard	source	1	AP		0.7072432158367664	0.6886265928150522	0.7243391402946687	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI	C1	seed_sites	standard	source	1	AP		0.6930570221939294	0.6783412182363767	0.7068114764694766	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI	C1	degree_prior	standard	source	1	AP		0.7395307845052786	0.7188120288036705	0.7564202411595122	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI_ratio10	C1	seaglmi	strict	source	10	AUROC		0.6714738403654933	0.6550474707578917	0.6860479023641742	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI_ratio10	C1	sitegbdt	strict	source	10	AUROC		0.6702005912389143	0.6543486544708723	0.6845814807937729	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI_ratio10	C1	pairfeat_gbdt	strict	source	10	AUROC		0.6627713840365493	0.6473001740582747	0.6770370625390291	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI_ratio10	C1	deeplmi	strict	source	10	AUROC		0.5174221338349906	0.495794404044941	0.5371537643486741	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI_ratio10	C1	spgnn	strict	source	10	AUROC		0.539534469228702	0.5248984934290271	0.5545011752451118	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI_ratio10	C1	hetgat_lmi_v2	strict	source	10	AUROC		0.4997351249664069	0.48640639403693686	0.5141499208840965	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI_ratio10	C1	mpgk_lmi	strict	source	10	AUROC		0.536981220102123	0.5201052893830852	0.5522725585461857	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI_ratio10	C1	tec_lncmir	strict	source	10	AUROC		0.5014185219027143	0.48783642994811627	0.514604438706659	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI_ratio10	C1	premli_keras224_v2	strict	source	10	AUROC		0.5142880515990325	0.49428009020023883	0.5318239755467108	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI_ratio10	C1	slnpm_correct	strict	source	10	AUROC		0.5180144047299113	0.4980069785523059	0.5365614949453336	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI_ratio10	C1	ndalma	strict	source	10	AUROC		0.5350983069067454	0.5134425664480791	0.5530313219402713	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI_ratio10	C1	kmer_lr	strict	source	10	AUROC		0.5116892878258532	0.4953677628493586	0.52636616306343	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI_ratio10	C1	seed_sites	strict	source	10	AUROC		0.6364208331093792	0.6202380815909558	0.6506339766386606	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI_ratio10	C1	degree_prior	strict	source	10	AUROC		0.5279185380274121	0.5045569937184158	0.5478351496681491	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI_ratio10	C1	seaglmi	strict	source	10	AP		0.18868028022280237	0.17691237444292549	0.20387311952457787	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI_ratio10	C1	sitegbdt	strict	source	10	AP		0.1806314257636629	0.17062204983050178	0.19430082001896345	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI_ratio10	C1	pairfeat_gbdt	strict	source	10	AP		0.18025279840078337	0.17012590174882455	0.1937045147523353	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI_ratio10	C1	deeplmi	strict	source	10	AP		0.10158934018122051	0.09536344352624317	0.1113433264930715	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI_ratio10	C1	spgnn	strict	source	10	AP		0.10966262733037822	0.10400939220853242	0.11889227766486128	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI_ratio10	C1	hetgat_lmi_v2	strict	source	10	AP		0.09197357904223098	0.08930933864566168	0.09772041199864642	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI_ratio10	C1	mpgk_lmi	strict	source	10	AP		0.10576144878905906	0.10121899293810677	0.11406631343635344	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI_ratio10	C1	tec_lncmir	strict	source	10	AP		0.09261717597041194	0.0895634521876714	0.09868783041069115	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI_ratio10	C1	premli_keras224_v2	strict	source	10	AP		0.09884782276763827	0.09322446324167082	0.10801750478529933	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI_ratio10	C1	slnpm_correct	strict	source	10	AP		0.09839556415253087	0.09298587791483924	0.10712886910897072	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI_ratio10	C1	ndalma	strict	source	10	AP		0.10679423089059575	0.1012903395892297	0.11542284281816019	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI_ratio10	C1	kmer_lr	strict	source	10	AP		0.09508834305543468	0.09172678275756635	0.10171734804808333	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI_ratio10	C1	seed_sites	strict	source	10	AP		0.13697389412493935	0.13079489040704026	0.14650686690848636	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI_ratio10	C1	degree_prior	strict	source	10	AP		0.11231798181369516	0.10367995337689198	0.1246934578346203	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI_ratio10	C1	seaglmi	standard	source	10	AUROC		0.8306677774791723	0.8173651903065522	0.842864045873054	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI_ratio10	C1	sitegbdt	standard	source	10	AUROC		0.8480695296963182	0.8359983350804889	0.8592753915183533	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI_ratio10	C1	pairfeat_gbdt	standard	source	10	AUROC		0.8477344369793066	0.8355535447539986	0.8589766914910989	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI_ratio10	C1	deeplmi	standard	source	10	AUROC		0.7361725557645794	0.7169597502078837	0.7541492727321419	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI_ratio10	C1	spgnn	standard	source	10	AUROC		0.772416812684762	0.7570626858558251	0.7858876224008196	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI_ratio10	C1	hetgat_lmi_v2	standard	source	10	AUROC		0.6169743187315239	0.6022816137686859	0.6337346807077758	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI_ratio10	C1	mpgk_lmi	standard	source	10	AUROC		0.6842528137597421	0.6661209772833573	0.7014555812012052	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI_ratio10	C1	tec_lncmir	standard	source	10	AUROC		0.6904859123891427	0.6726488231032388	0.7064325640495461	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI_ratio10	C1	premli_keras224_v2	standard	source	10	AUROC		0.7190596506315508	0.7003075932296758	0.7360210791715615	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI_ratio10	C1	slnpm_correct	standard	source	10	AUROC		0.6955661166353131	0.675958795608638	0.7132959303629315	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI_ratio10	C1	ndalma	standard	source	10	AUROC		0.6669679333512497	0.6450110577774718	0.6845166752956028	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI_ratio10	C1	kmer_lr	standard	source	10	AUROC		0.6918246492878259	0.6725815260199967	0.7101713328335769	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI_ratio10	C1	seed_sites	standard	source	10	AUROC		0.6948678312281644	0.6785116367722883	0.7096341633921959	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI_ratio10	C1	degree_prior	standard	source	10	AUROC		0.6840140392367644	0.6605669956079612	0.7034034566754648	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI_ratio10	C1	seaglmi	standard	source	10	AP		0.4239095783700931	0.3955132923313545	0.45129097639488536	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI_ratio10	C1	sitegbdt	standard	source	10	AP		0.46598865945678725	0.43416408567739	0.493027365698103	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI_ratio10	C1	pairfeat_gbdt	standard	source	10	AP		0.45560525638361715	0.4279843436939305	0.480925278994242	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI_ratio10	C1	deeplmi	standard	source	10	AP		0.31319624115946054	0.28192872030923355	0.34447950308283204	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI_ratio10	C1	spgnn	standard	source	10	AP		0.36374114890601517	0.33422561858783656	0.3916889773365725	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI_ratio10	C1	hetgat_lmi_v2	standard	source	10	AP		0.13410461985451963	0.12820002686329068	0.14434685921241228	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI_ratio10	C1	mpgk_lmi	standard	source	10	AP		0.2562745269862235	0.23327595288191788	0.2821977265336422	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI_ratio10	C1	tec_lncmir	standard	source	10	AP		0.22399534146467776	0.2096061030354393	0.2414671064580379	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI_ratio10	C1	premli_keras224_v2	standard	source	10	AP		0.3072336649814726	0.27404060215780196	0.33987342743706306	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI_ratio10	C1	slnpm_correct	standard	source	10	AP		0.2603821854412607	0.24120410346197851	0.28231465145084694	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI_ratio10	C1	ndalma	standard	source	10	AP		0.19882677413992783	0.1849796555434059	0.21618803812002788	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI_ratio10	C1	kmer_lr	standard	source	10	AP		0.22889108004111647	0.21108186680251873	0.2502619864747186	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI_ratio10	C1	seed_sites	standard	source	10	AP		0.23152686641520479	0.2159922534044983	0.25033471456935236	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_source_CI_ratio10	C1	degree_prior	standard	source	10	AP		0.3366052541838187	0.3047277406160809	0.3663963565896634	original_2000_conditional_source_record_bootstrap_95pct_CI
+fig_screened_B_contrasts_main	B	spgnn	strict	blind_both	1	AUROC	eligibility_fixed	-0.005835274084438624	-0.019483402012608328	0.007812853843731081	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_main	B	deeplmi	strict	blind_both	1	AUROC	eligibility_fixed	-0.014966119553649682	-0.05437041576142897	0.024438176654129604	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_main	B	sitegbdt	strict	blind_both	1	AUROC	eligibility_fixed	-0.018419320310965936	-0.06349999257318939	0.026661351951257524	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_main	B	seaglmi	strict	blind_both	1	AUROC	eligibility_fixed	0.012029404681478418	-0.013443181979784865	0.0375019913427417	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_main	B	spgnn	strict	warm	1	AUROC	eligibility_fixed	0.004945538996452115	-0.019617659971781564	0.029508737964685793	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_main	B	deeplmi	strict	warm	1	AUROC	eligibility_fixed	0.00507201115939091	-0.007645399582575421	0.01778942190135724	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_main	B	sitegbdt	strict	warm	1	AUROC	eligibility_fixed	0.004198950369877807	-0.01886693206736964	0.02726483280712525	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_main	B	seaglmi	strict	warm	1	AUROC	eligibility_fixed	0.0032930217097304703	-0.006915358452130878	0.01350140187159182	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_main	B	spgnn	strict	blind_both	1	AUROC	eligibility_dynamic	0.009917587301637743	-0.013166035722489219	0.0330012103257647	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_main	B	deeplmi	strict	blind_both	1	AUROC	eligibility_dynamic	0.00475997028111802	-0.005892893742892907	0.015412834305128947	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_main	B	seaglmi	strict	blind_both	1	AUROC	eligibility_dynamic	0.0017876888466227259	-0.034517021010694024	0.038092398703939476	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_main	B	spgnn	strict	warm	1	AUROC	eligibility_dynamic	0.006915571390154196	-0.0034442536713926303	0.017275396451701022	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_main	B	deeplmi	strict	warm	1	AUROC	eligibility_dynamic	-0.001045964437479774	-0.009279920690566613	0.007187991815607065	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_main	B	seaglmi	strict	warm	1	AUROC	eligibility_dynamic	0.0038396665627156157	-0.0071838965103597965	0.014863229635791028	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_main	B	spgnn	strict	blind_both	1	AUROC	dynamic_base	-0.0001786730190460606	-0.03349256117597557	0.03313521513788345	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_main	B	deeplmi	strict	blind_both	1	AUROC	dynamic_base	-0.02276460919699149	-0.0483814665357432	0.00285224814176022	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_main	B	seaglmi	strict	blind_both	1	AUROC	dynamic_base	0.01830997568369086	-0.0381061777670482	0.07472612913442991	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_main	B	spgnn	strict	warm	1	AUROC	dynamic_base	-0.004324259661563223	-0.015233518725598687	0.006584999402472241	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_main	B	deeplmi	strict	warm	1	AUROC	dynamic_base	0.0058624563462474025	-0.0006601308432242058	0.012385043535719011	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_main	B	seaglmi	strict	warm	1	AUROC	dynamic_base	0.004586096708641607	-0.006860067762775092	0.016032261180058308	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_main	B	spgnn	strict	blind_both	1	AUROC	dynamic_all	0.015574188367030306	0.001354013772406265	0.029794362961654348	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_main	B	deeplmi	strict	blind_both	1	AUROC	dynamic_all	-0.0030385193622237904	-0.047638895671705574	0.041561856947257995	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_main	B	seaglmi	strict	blind_both	1	AUROC	dynamic_all	0.008068259848835168	-0.026130430371513552	0.04226695006918389	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_main	B	spgnn	strict	warm	1	AUROC	dynamic_all	-0.002354227267861142	-0.02796665012526298	0.023258195589540693	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_main	B	deeplmi	strict	warm	1	AUROC	dynamic_all	-0.00025551925062328174	-0.008241000428775512	0.007729961927528948	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_main	B	seaglmi	strict	warm	1	AUROC	dynamic_all	0.005132741561626753	-0.0021226663873237144	0.01238814951057722	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio1	B	spgnn	standard	blind_both	1	AUROC	eligibility_fixed	-0.006947538350974303	-0.021715879445785864	0.007820802743837257	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio1	B	deeplmi	standard	blind_both	1	AUROC	eligibility_fixed	0.015407400056650266	-0.031577675546988954	0.06239247566028948	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio1	B	sitegbdt	standard	blind_both	1	AUROC	eligibility_fixed	0.013804034339418214	-0.019247857800029834	0.046855926478866265	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio1	B	seaglmi	standard	blind_both	1	AUROC	eligibility_fixed	0.002512697067572911	-0.01380847743736252	0.01883387157250834	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio1	B	spgnn	standard	warm	1	AUROC	eligibility_fixed	-0.008154864677257923	-0.025620973000163708	0.009311243645647864	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio1	B	deeplmi	standard	warm	1	AUROC	eligibility_fixed	0.00344190816821488	-0.0009550359169292017	0.007838852253358963	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio1	B	sitegbdt	standard	warm	1	AUROC	eligibility_fixed	-0.0036294544649616346	-0.008055212934942775	0.0007963040050195055	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio1	B	seaglmi	standard	warm	1	AUROC	eligibility_fixed	-0.0027630152089039408	-0.015221911051794941	0.009695880633987061	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio1	B	spgnn	strict	blind_both	1	AUROC	eligibility_fixed	-0.005835274084438624	-0.019483402012608328	0.007812853843731081	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio1	B	deeplmi	strict	blind_both	1	AUROC	eligibility_fixed	-0.014966119553649682	-0.05437041576142897	0.024438176654129604	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio1	B	sitegbdt	strict	blind_both	1	AUROC	eligibility_fixed	-0.018419320310965936	-0.06349999257318939	0.026661351951257524	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio1	B	seaglmi	strict	blind_both	1	AUROC	eligibility_fixed	0.012029404681478418	-0.013443181979784865	0.0375019913427417	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio1	B	spgnn	strict	warm	1	AUROC	eligibility_fixed	0.004945538996452115	-0.019617659971781564	0.029508737964685793	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio1	B	deeplmi	strict	warm	1	AUROC	eligibility_fixed	0.00507201115939091	-0.007645399582575421	0.01778942190135724	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio1	B	sitegbdt	strict	warm	1	AUROC	eligibility_fixed	0.004198950369877807	-0.01886693206736964	0.02726483280712525	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio1	B	seaglmi	strict	warm	1	AUROC	eligibility_fixed	0.0032930217097304703	-0.006915358452130878	0.01350140187159182	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio1	B	spgnn	standard	blind_both	1	AUROC	eligibility_dynamic	-0.0171381164795144	-0.05149039445333192	0.01721416149430313	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio1	B	deeplmi	standard	blind_both	1	AUROC	eligibility_dynamic	0.001781567070394563	-0.00915539032833553	0.012718524469124656	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio1	B	seaglmi	standard	blind_both	1	AUROC	eligibility_dynamic	0.004375255125545085	-0.017507455997563495	0.026257966248653668	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio1	B	spgnn	standard	warm	1	AUROC	eligibility_dynamic	-0.007667235358208369	-0.023409351431896534	0.008074880715479798	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio1	B	deeplmi	standard	warm	1	AUROC	eligibility_dynamic	0.0025004945957760594	-0.0002748934833310124	0.005275882674883131	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio1	B	seaglmi	standard	warm	1	AUROC	eligibility_dynamic	0.001113522189795413	-0.011793237349254797	0.014020281728845622	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio1	B	spgnn	strict	blind_both	1	AUROC	eligibility_dynamic	0.009917587301637743	-0.013166035722489219	0.0330012103257647	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio1	B	deeplmi	strict	blind_both	1	AUROC	eligibility_dynamic	0.00475997028111802	-0.005892893742892907	0.015412834305128947	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio1	B	seaglmi	strict	blind_both	1	AUROC	eligibility_dynamic	0.0017876888466227259	-0.034517021010694024	0.038092398703939476	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio1	B	spgnn	strict	warm	1	AUROC	eligibility_dynamic	0.006915571390154196	-0.0034442536713926303	0.017275396451701022	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio1	B	deeplmi	strict	warm	1	AUROC	eligibility_dynamic	-0.001045964437479774	-0.009279920690566613	0.007187991815607065	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio1	B	seaglmi	strict	warm	1	AUROC	eligibility_dynamic	0.0038396665627156157	-0.0071838965103597965	0.014863229635791028	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio1	B	spgnn	standard	blind_both	1	AUROC	dynamic_base	-0.004368679287689336	-0.018435566701189086	0.009698208125810414	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio1	B	deeplmi	standard	blind_both	1	AUROC	dynamic_base	0.008366997149625143	-0.0032857858620566754	0.020019780161306962	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio1	B	seaglmi	standard	blind_both	1	AUROC	dynamic_base	0.003909510721890075	-0.012932570442321956	0.020751591886102108	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio1	B	spgnn	standard	warm	1	AUROC	dynamic_base	0.000642671321511723	-0.029173708100364775	0.030459050743388224	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio1	B	deeplmi	standard	warm	1	AUROC	dynamic_base	0.017933505079193623	-0.0002445055799835151	0.036111515738370764	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio1	B	seaglmi	standard	warm	1	AUROC	dynamic_base	0.0037241023758305403	-0.0049915477991570225	0.012439752550818103	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio1	B	spgnn	strict	blind_both	1	AUROC	dynamic_base	-0.0001786730190460606	-0.03349256117597557	0.03313521513788345	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio1	B	deeplmi	strict	blind_both	1	AUROC	dynamic_base	-0.02276460919699149	-0.0483814665357432	0.00285224814176022	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio1	B	seaglmi	strict	blind_both	1	AUROC	dynamic_base	0.01830997568369086	-0.0381061777670482	0.07472612913442991	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio1	B	spgnn	strict	warm	1	AUROC	dynamic_base	-0.004324259661563223	-0.015233518725598687	0.006584999402472241	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio1	B	deeplmi	strict	warm	1	AUROC	dynamic_base	0.0058624563462474025	-0.0006601308432242058	0.012385043535719011	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio1	B	seaglmi	strict	warm	1	AUROC	dynamic_base	0.004586096708641607	-0.006860067762775092	0.016032261180058308	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio1	B	spgnn	standard	blind_both	1	AUROC	dynamic_all	-0.014559257416229432	-0.049992218462007784	0.02087370362954892	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio1	B	deeplmi	standard	blind_both	1	AUROC	dynamic_all	-0.00525883583663056	-0.03516690236789646	0.02464923069463534	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio1	B	seaglmi	standard	blind_both	1	AUROC	dynamic_all	0.005772068779862249	-0.01756442758207263	0.02910856514179713	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio1	B	spgnn	standard	warm	1	AUROC	dynamic_all	0.001130300640561277	-0.011273829894434366	0.01353443117555692	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio1	B	deeplmi	standard	warm	1	AUROC	dynamic_all	0.016992091506754802	-0.004236554858427239	0.03822073787193685	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio1	B	seaglmi	standard	warm	1	AUROC	dynamic_all	0.0076006397745298935	-0.006584651909762239	0.021785931458822027	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio1	B	spgnn	strict	blind_both	1	AUROC	dynamic_all	0.015574188367030306	0.001354013772406265	0.029794362961654348	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio1	B	deeplmi	strict	blind_both	1	AUROC	dynamic_all	-0.0030385193622237904	-0.047638895671705574	0.041561856947257995	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio1	B	seaglmi	strict	blind_both	1	AUROC	dynamic_all	0.008068259848835168	-0.026130430371513552	0.04226695006918389	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio1	B	spgnn	strict	warm	1	AUROC	dynamic_all	-0.002354227267861142	-0.02796665012526298	0.023258195589540693	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio1	B	deeplmi	strict	warm	1	AUROC	dynamic_all	-0.00025551925062328174	-0.008241000428775512	0.007729961927528948	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio1	B	seaglmi	strict	warm	1	AUROC	dynamic_all	0.005132741561626753	-0.0021226663873237144	0.01238814951057722	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio1	B	spgnn	standard	blind_both	1	AUROC	ratio_two_minus_one	0.08955889229305578	0.016248821750110262	0.16286896283600127	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio1	B	deeplmi	standard	blind_both	1	AUROC	ratio_two_minus_one	0.026993419854459022	-0.09264907986919356	0.14663591957811162	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio1	B	sitegbdt	standard	blind_both	1	AUROC	ratio_two_minus_one	0.010919951338666323	-0.04714286303804941	0.06898276571538206	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio1	B	seaglmi	standard	blind_both	1	AUROC	ratio_two_minus_one	0.005032330356722237	-0.01857761686313848	0.028642277576582952	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio1	B	spgnn	standard	warm	1	AUROC	ratio_two_minus_one	-0.009083275987039018	-0.02281428516036465	0.004647733186286612	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio1	B	deeplmi	standard	warm	1	AUROC	ratio_two_minus_one	-0.010986142676356891	-0.03092902830165833	0.008956742948944548	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio1	B	sitegbdt	standard	warm	1	AUROC	ratio_two_minus_one	0.00898572598879439	-0.008885329311380554	0.026856781288969334	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio1	B	seaglmi	standard	warm	1	AUROC	ratio_two_minus_one	0.018833346114986126	0.003282890418156742	0.03438380181181551	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio1	B	spgnn	strict	blind_both	1	AUROC	ratio_two_minus_one	-0.006084077692248913	-0.049662813516954445	0.03749465813245662	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio1	B	deeplmi	strict	blind_both	1	AUROC	ratio_two_minus_one	-0.018524208570364055	-0.05787837018015108	0.02082995303942297	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio1	B	sitegbdt	strict	blind_both	1	AUROC	ratio_two_minus_one	0.0038423324088120436	-0.019705929986372342	0.02739059480399643	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio1	B	seaglmi	strict	blind_both	1	AUROC	ratio_two_minus_one	-0.010176786868165144	-0.048209528407578375	0.027855954671248087	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio1	B	spgnn	strict	warm	1	AUROC	ratio_two_minus_one	2.1721965133736366e-05	-0.015772646425017883	0.015816090355285355	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio1	B	deeplmi	strict	warm	1	AUROC	ratio_two_minus_one	-0.005079293052583056	-0.009853119502000041	-0.0003054666031660717	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio1	B	sitegbdt	strict	warm	1	AUROC	ratio_two_minus_one	0.0054747732504911275	-0.024579722857733105	0.03552926935871536	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio1	B	seaglmi	strict	warm	1	AUROC	ratio_two_minus_one	-0.00023456229575773423	-0.009714051655615322	0.009244927064099852	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio1	B	spgnn	standard	blind_both	1	AUROC	eligibility_by_sampling_interaction	-0.010190578128540096	-0.031635521767521296	0.011254365510441107	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio1	B	deeplmi	standard	blind_both	1	AUROC	eligibility_by_sampling_interaction	-0.013625832986255703	-0.049940828927582795	0.022689162955071385	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio1	B	seaglmi	standard	blind_both	1	AUROC	eligibility_by_sampling_interaction	0.0018625580579721746	-0.01162115510483158	0.015346271220775929	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio1	B	spgnn	standard	warm	1	AUROC	eligibility_by_sampling_interaction	0.000487629319049554	-0.02441726175957624	0.02539252039767535	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio1	B	deeplmi	standard	warm	1	AUROC	eligibility_by_sampling_interaction	-0.0009414135724388206	-0.006851792892980891	0.00496896574810325	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio1	B	seaglmi	standard	warm	1	AUROC	eligibility_by_sampling_interaction	0.0038765373986993533	-0.01564299710577168	0.023396071903170387	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio1	B	spgnn	strict	blind_both	1	AUROC	eligibility_by_sampling_interaction	0.015752861386076365	-0.01361955954285116	0.04512528231500389	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio1	B	deeplmi	strict	blind_both	1	AUROC	eligibility_by_sampling_interaction	0.0197260898347677	-0.022045657722681605	0.06149783739221701	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio1	B	seaglmi	strict	blind_both	1	AUROC	eligibility_by_sampling_interaction	-0.010241715834855692	-0.05407817670286924	0.03359474503315786	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio1	B	spgnn	strict	warm	1	AUROC	eligibility_by_sampling_interaction	0.0019700323937020814	-0.031046976446364657	0.03498704123376882	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio1	B	deeplmi	strict	warm	1	AUROC	eligibility_by_sampling_interaction	-0.006117975596870684	-0.013732352771243711	0.0014964015775023433	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio1	B	seaglmi	strict	warm	1	AUROC	eligibility_by_sampling_interaction	0.0005466448529851453	-0.012309661808569709	0.013402951514539999	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio10	B	spgnn	standard	blind_both	10	AUROC	eligibility_fixed	-0.0034529447263837	-0.013771472311086115	0.006865582858318714	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio10	B	deeplmi	standard	blind_both	10	AUROC	eligibility_fixed	-0.001841541673243663	-0.01789095859485068	0.014207875248363354	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio10	B	sitegbdt	standard	blind_both	10	AUROC	eligibility_fixed	0.01560134862212954	-0.00037603831005018906	0.03157873555430927	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio10	B	seaglmi	standard	blind_both	10	AUROC	eligibility_fixed	0.0003484424400904462	-0.00927943744232463	0.009976322322505522	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio10	B	spgnn	standard	warm	10	AUROC	eligibility_fixed	-0.006154848870597984	-0.021222933446771588	0.00891323570557562	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio10	B	deeplmi	standard	warm	10	AUROC	eligibility_fixed	0.0020345276921071463	-0.0035228940119730375	0.00759194939618733	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio10	B	sitegbdt	standard	warm	10	AUROC	eligibility_fixed	-0.002917295240299311	-0.0045277997544535455	-0.0013067907261450772	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio10	B	seaglmi	standard	warm	10	AUROC	eligibility_fixed	-0.0002718064688059352	-0.008645962120251732	0.008102349182639863	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio10	B	spgnn	strict	blind_both	10	AUROC	eligibility_fixed	-0.003344732402083417	-0.017868599174954536	0.011179134370787703	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio10	B	deeplmi	strict	blind_both	10	AUROC	eligibility_fixed	0.0018472472871028823	-0.022805827329431885	0.02650032190363765	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio10	B	sitegbdt	strict	blind_both	10	AUROC	eligibility_fixed	-0.009919366968019538	-0.04551149422617907	0.02567276029013999	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio10	B	seaglmi	strict	blind_both	10	AUROC	eligibility_fixed	0.0014599747607064507	-0.017835059119984255	0.02075500864139716	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio10	B	spgnn	strict	warm	10	AUROC	eligibility_fixed	0.001377757860166695	-0.00886354607158641	0.0116190617919198	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio10	B	deeplmi	strict	warm	10	AUROC	eligibility_fixed	0.004472889652442169	0.0003962403190167019	0.008549538985867636	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio10	B	sitegbdt	strict	warm	10	AUROC	eligibility_fixed	0.007134934690353645	-0.018159880026980962	0.03242974940768825	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio10	B	seaglmi	strict	warm	10	AUROC	eligibility_fixed	0.004020992955219405	-0.006836866268263304	0.014878852178702114	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio10	B	spgnn	standard	blind_both	10	AUROC	eligibility_dynamic	-0.0023691111939133425	-0.010794659094423257	0.006056436706596573	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio10	B	deeplmi	standard	blind_both	10	AUROC	eligibility_dynamic	0.0008979601781983982	-0.0005803631418512802	0.0023762834982480763	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio10	B	seaglmi	standard	blind_both	10	AUROC	eligibility_dynamic	0.0030505184099577586	-0.01601841917985131	0.022119455999766825	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio10	B	spgnn	standard	warm	10	AUROC	eligibility_dynamic	-0.0047807921862442985	-0.01490868688288374	0.005347102510395142	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio10	B	deeplmi	standard	warm	10	AUROC	eligibility_dynamic	0.002944718757780107	0.0004194001843309714	0.0054700373312292425	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio10	B	seaglmi	standard	warm	10	AUROC	eligibility_dynamic	0.003795149120285712	-0.00795897969579427	0.015549277936365697	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio10	B	spgnn	strict	blind_both	10	AUROC	eligibility_dynamic	-0.009219624370014778	-0.018361448278612275	-7.780046141728399e-05	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio10	B	deeplmi	strict	blind_both	10	AUROC	eligibility_dynamic	-0.00047436074385871497	-0.003995649527115448	0.0030469280393980182	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio10	B	seaglmi	strict	blind_both	10	AUROC	eligibility_dynamic	0.003357811625981899	-0.039277030139584924	0.045992653391548725	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio10	B	spgnn	strict	warm	10	AUROC	eligibility_dynamic	0.004661925336652317	-0.0007960402681743547	0.010119890941478988	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio10	B	deeplmi	strict	warm	10	AUROC	eligibility_dynamic	0.0014218709757561232	-0.002693915902545283	0.005537657854057529	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio10	B	seaglmi	strict	warm	10	AUROC	eligibility_dynamic	0.006781697447125379	-0.0013965069714592096	0.014959901865709967	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio10	B	spgnn	standard	blind_both	10	AUROC	dynamic_base	-0.0064931534539578225	-0.020645494387339494	0.007659187479423851	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio10	B	deeplmi	standard	blind_both	10	AUROC	dynamic_base	-0.005642556568226764	-0.016088292470971734	0.004803179334518206	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio10	B	seaglmi	standard	blind_both	10	AUROC	dynamic_base	0.0009315667535197969	-0.004287962948065851	0.006151096455105445	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio10	B	spgnn	standard	warm	10	AUROC	dynamic_base	-0.004178926685181583	-0.028298353635802277	0.019940500265439108	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio10	B	deeplmi	standard	warm	10	AUROC	dynamic_base	0.01487053091412518	-0.003213122544738439	0.0329541843729888	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio10	B	seaglmi	standard	warm	10	AUROC	dynamic_base	0.0029738879521044037	-0.004308040136693038	0.010255816040901845	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio10	B	spgnn	strict	blind_both	10	AUROC	dynamic_base	0.005214335965227801	-0.01128749478852406	0.021716166718979663	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio10	B	deeplmi	strict	blind_both	10	AUROC	dynamic_base	0.02262940756346039	-0.03598661465541729	0.08124542978233808	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio10	B	seaglmi	strict	blind_both	10	AUROC	dynamic_base	0.001983707614185115	-0.06363774059058867	0.06760515581895891	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio10	B	spgnn	strict	warm	10	AUROC	dynamic_base	-0.0019189296879866147	-0.006307434225055763	0.002469574849082534	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio10	B	deeplmi	strict	warm	10	AUROC	dynamic_base	0.0007239956629024657	-0.008375446165596734	0.009823437491401665	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio10	B	seaglmi	strict	warm	10	AUROC	dynamic_base	0.004960816467820939	-0.003104184780222007	0.013025817715863884	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio10	B	spgnn	standard	blind_both	10	AUROC	dynamic_all	-0.005409319921487465	-0.019849810889190318	0.009031171046215387	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio10	B	deeplmi	standard	blind_both	10	AUROC	dynamic_all	-0.002903054716784703	-0.025469161351224255	0.01966305191765485	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio10	B	seaglmi	standard	blind_both	10	AUROC	dynamic_all	0.003633642723387109	-0.01563743500539143	0.02290472045216565	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio10	B	spgnn	standard	warm	10	AUROC	dynamic_all	-0.002804870000827897	-0.010886826721946921	0.0052770867202911265	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio10	B	deeplmi	standard	warm	10	AUROC	dynamic_all	0.01578072197979814	-0.0036774926983536016	0.03523893665794988	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio10	B	seaglmi	standard	warm	10	AUROC	dynamic_all	0.007040843541196051	-0.005644383628132665	0.01972607071052477	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio10	B	spgnn	strict	blind_both	10	AUROC	dynamic_all	-0.0006605560027035607	-0.011490201257036921	0.0101690892516298	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio10	B	deeplmi	strict	blind_both	10	AUROC	dynamic_all	0.020307799532498793	-0.031985072514972915	0.0726006715799705	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio10	B	seaglmi	strict	blind_both	10	AUROC	dynamic_all	0.0038815444794605635	-0.03194198064655446	0.03970506960547558	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio10	B	spgnn	strict	warm	10	AUROC	dynamic_all	0.0013652377884990075	-0.008582160623591798	0.011312636200589813	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio10	B	deeplmi	strict	warm	10	AUROC	dynamic_all	-0.0023270230137835803	-0.007025191678796738	0.002371145651229577	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio10	B	seaglmi	strict	warm	10	AUROC	dynamic_all	0.007721520959726913	-0.0002250199522243635	0.015668061871678192	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio10	B	spgnn	standard	blind_both	10	AUROC	ratio_two_minus_one	0.05158535750927144	-0.0075182831864824	0.11068899820502529	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio10	B	deeplmi	standard	blind_both	10	AUROC	ratio_two_minus_one	0.012258481168762703	-0.05718382008547766	0.08170078242300306	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio10	B	sitegbdt	standard	blind_both	10	AUROC	ratio_two_minus_one	0.002562750684432924	-0.034775190485088966	0.03990069185395481	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio10	B	seaglmi	standard	blind_both	10	AUROC	ratio_two_minus_one	0.008324850131510474	-0.0071651539169998064	0.023814854180020755	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio10	B	spgnn	standard	warm	10	AUROC	ratio_two_minus_one	-0.008236058726677542	-0.021243101352597493	0.004770983899242409	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio10	B	deeplmi	standard	warm	10	AUROC	ratio_two_minus_one	-0.010934862458456674	-0.030996350474284423	0.009126625557371074	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio10	B	sitegbdt	standard	warm	10	AUROC	ratio_two_minus_one	0.007132140999196945	-0.00649311732157416	0.02075739931996805	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio10	B	seaglmi	standard	warm	10	AUROC	ratio_two_minus_one	0.015628057777053762	0.003711771099881597	0.027544344454225926	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio10	B	spgnn	strict	blind_both	10	AUROC	ratio_two_minus_one	0.002134787400689253	-0.026864439853460684	0.031134014654839188	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio10	B	deeplmi	strict	blind_both	10	AUROC	ratio_two_minus_one	-0.007988056942416532	-0.02321661841749071	0.007240504532657644	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio10	B	sitegbdt	strict	blind_both	10	AUROC	ratio_two_minus_one	0.010663411690045232	-0.012274923682178291	0.033601747062268754	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio10	B	seaglmi	strict	blind_both	10	AUROC	ratio_two_minus_one	-0.014922488436698588	-0.042667525463116404	0.012822548589719228	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio10	B	spgnn	strict	warm	10	AUROC	ratio_two_minus_one	-0.001791473200164506	-0.017059144672730578	0.013476198272401567	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio10	B	deeplmi	strict	warm	10	AUROC	ratio_two_minus_one	0.0015546160471270776	-0.005222276921630816	0.008331509015884971	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio10	B	sitegbdt	strict	warm	10	AUROC	ratio_two_minus_one	0.0042478413756940284	-0.020144944677901976	0.02864062742929003	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio10	B	seaglmi	strict	warm	10	AUROC	ratio_two_minus_one	-0.000576385975730398	-0.012884896727473978	0.011732124776013183	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio10	B	spgnn	standard	blind_both	10	AUROC	eligibility_by_sampling_interaction	0.0010838335324703796	-0.003287790565456179	0.005455457630396938	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio10	B	deeplmi	standard	blind_both	10	AUROC	eligibility_by_sampling_interaction	0.002739501851442061	-0.012900566272672869	0.01837956997555699	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio10	B	seaglmi	standard	blind_both	10	AUROC	eligibility_by_sampling_interaction	0.0027020759698673123	-0.014048354768880864	0.01945250670861549	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio10	B	spgnn	standard	warm	10	AUROC	eligibility_by_sampling_interaction	0.0013740566843536862	-0.01750591363484563	0.020254027003553002	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio10	B	deeplmi	standard	warm	10	AUROC	eligibility_by_sampling_interaction	0.0009101910656729606	-0.004080462782732698	0.005900844914078619	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio10	B	seaglmi	standard	warm	10	AUROC	eligibility_by_sampling_interaction	0.0040669555890916476	-0.013507183879739388	0.021641095057922683	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio10	B	spgnn	strict	blind_both	10	AUROC	eligibility_by_sampling_interaction	-0.005874891967931362	-0.02248060037385414	0.010730816437991416	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio10	B	deeplmi	strict	blind_both	10	AUROC	eligibility_by_sampling_interaction	-0.002321608030961597	-0.02903444598925025	0.024391229927327056	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio10	B	seaglmi	strict	blind_both	10	AUROC	eligibility_by_sampling_interaction	0.0018978368652754485	-0.05139405180204012	0.055189725532591015	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio10	B	spgnn	strict	warm	10	AUROC	eligibility_by_sampling_interaction	0.003284167476485622	-0.010656224779786568	0.017224559732757813	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio10	B	deeplmi	strict	warm	10	AUROC	eligibility_by_sampling_interaction	-0.0030510186766860457	-0.008342469407592356	0.0022404320542202642	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AUROC_ratio10	B	seaglmi	strict	warm	10	AUROC	eligibility_by_sampling_interaction	0.0027607044919059744	-0.010541570332099136	0.016062979315911084	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio1	B	spgnn	standard	blind_both	1	AP	eligibility_fixed	-0.0144169992082108	-0.03804134495108805	0.00920734653466645	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio1	B	deeplmi	standard	blind_both	1	AP	eligibility_fixed	-0.0021469259856073176	-0.05362292657651928	0.04932907460530464	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio1	B	sitegbdt	standard	blind_both	1	AP	eligibility_fixed	0.016812797319448604	-0.024580790697479954	0.05820638533637716	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio1	B	seaglmi	standard	blind_both	1	AP	eligibility_fixed	-0.0027304995059283634	-0.014786988478395265	0.00932598946653854	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio1	B	spgnn	standard	warm	1	AP	eligibility_fixed	-0.00556350666763703	-0.01712581109727728	0.005998797762003219	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio1	B	deeplmi	standard	warm	1	AP	eligibility_fixed	0.003205351004016199	-0.0003708573721863855	0.006781559380218784	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio1	B	sitegbdt	standard	warm	1	AP	eligibility_fixed	-0.0036581804129961924	-0.00819627133148335	0.0008799105054909636	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio1	B	seaglmi	standard	warm	1	AP	eligibility_fixed	-0.006799620942715268	-0.025290491737374493	0.011691249851943959	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio1	B	spgnn	strict	blind_both	1	AP	eligibility_fixed	-0.006395549979875126	-0.020938726832411124	0.008147626872660874	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio1	B	deeplmi	strict	blind_both	1	AP	eligibility_fixed	-0.00212201455609462	-0.02388649344272507	0.01964246433053583	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio1	B	sitegbdt	strict	blind_both	1	AP	eligibility_fixed	-3.407942332429581e-05	-0.053654116200906384	0.053585957354257786	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio1	B	seaglmi	strict	blind_both	1	AP	eligibility_fixed	-0.0007069506465372744	-0.02290626713396923	0.021492365840894683	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio1	B	spgnn	strict	warm	1	AP	eligibility_fixed	0.006130676089267961	-0.008285811981790287	0.02054716416032621	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio1	B	deeplmi	strict	warm	1	AP	eligibility_fixed	0.009181091755667347	-0.01016837306777935	0.028530556579114043	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio1	B	sitegbdt	strict	warm	1	AP	eligibility_fixed	-0.014770823177242121	-0.03757185446487167	0.00803020811038743	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio1	B	seaglmi	strict	warm	1	AP	eligibility_fixed	0.0016826645195034296	-0.011558219271203554	0.014923548310210415	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio1	B	spgnn	standard	blind_both	1	AP	eligibility_dynamic	-0.010207899480916448	-0.03162216551779745	0.011206366555964558	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio1	B	deeplmi	standard	blind_both	1	AP	eligibility_dynamic	-0.0001353495348148881	-0.011767415824935913	0.011496716755306136	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio1	B	seaglmi	standard	blind_both	1	AP	eligibility_dynamic	0.005332154440513981	-0.014646603406329877	0.02531091228735784	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio1	B	spgnn	standard	warm	1	AP	eligibility_dynamic	-0.0036519408887242255	-0.013470928182264402	0.0061670464048159505	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio1	B	deeplmi	standard	warm	1	AP	eligibility_dynamic	0.005296481813518383	-0.003406983845301883	0.01399994747233865	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio1	B	seaglmi	standard	warm	1	AP	eligibility_dynamic	0.000841983489304643	-0.011209487747452196	0.012893454726061482	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio1	B	spgnn	strict	blind_both	1	AP	eligibility_dynamic	0.02186338754502635	-0.007304597170045366	0.05103137226009806	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio1	B	deeplmi	strict	blind_both	1	AP	eligibility_dynamic	0.00940687059918508	-0.007261737277269495	0.026075478475639652	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio1	B	seaglmi	strict	blind_both	1	AP	eligibility_dynamic	0.013087541473321784	-0.03735058675835857	0.06352566970500213	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio1	B	spgnn	strict	warm	1	AP	eligibility_dynamic	0.0038670751482173136	-0.0011826046324902488	0.008916754928924877	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio1	B	deeplmi	strict	warm	1	AP	eligibility_dynamic	0.00028906853632744146	-0.007879923788900307	0.008458060861555188	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio1	B	seaglmi	strict	warm	1	AP	eligibility_dynamic	0.004523378378844955	-0.008979082007472544	0.018025838765162457	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio1	B	spgnn	standard	blind_both	1	AP	dynamic_base	-0.006785266397988932	-0.026731745614862863	0.013161212818885	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio1	B	deeplmi	standard	blind_both	1	AP	dynamic_base	-0.0009434339436667271	-0.02754353471245075	0.025656666825117292	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio1	B	seaglmi	standard	blind_both	1	AP	dynamic_base	-0.005098065534990814	-0.013749557521478578	0.0035534264514969494	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio1	B	spgnn	standard	warm	1	AP	dynamic_base	-0.0032017113473622903	-0.021024203323386736	0.014620780628662153	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio1	B	deeplmi	standard	warm	1	AP	dynamic_base	0.01290189008942395	-0.0016291418890571566	0.027432922067905055	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio1	B	seaglmi	standard	warm	1	AP	dynamic_base	0.006930126485907628	-0.0030585707805587843	0.01691882375237404	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio1	B	spgnn	strict	blind_both	1	AP	dynamic_base	-0.006738338154158341	-0.030234961430156145	0.016758285121839467	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio1	B	deeplmi	strict	blind_both	1	AP	dynamic_base	-0.010965339133009677	-0.02814118776471709	0.006210509498697735	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio1	B	seaglmi	strict	blind_both	1	AP	dynamic_base	0.001961601374451427	-0.04271089422282344	0.0466340969717263	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio1	B	spgnn	strict	warm	1	AP	dynamic_base	-0.0009975997698643102	-0.0038816753779835804	0.0018864758382549599	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio1	B	deeplmi	strict	warm	1	AP	dynamic_base	0.004207633438363367	-0.013784609676728841	0.022199876553455573	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio1	B	seaglmi	strict	warm	1	AP	dynamic_base	0.000784297949470214	-0.009903980053829965	0.011472575952770393	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio1	B	spgnn	standard	blind_both	1	AP	dynamic_all	-0.0025761666706945797	-0.02400914067278547	0.01885680733139631	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio1	B	deeplmi	standard	blind_both	1	AP	dynamic_all	0.0010681425071257023	-0.012241420231745933	0.014377705245997336	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio1	B	seaglmi	standard	blind_both	1	AP	dynamic_all	0.0029645884114515297	-0.021528336010310838	0.027457512833213897	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio1	B	spgnn	standard	warm	1	AP	dynamic_all	-0.0012901455684494855	-0.008869321637403909	0.006289030500504937	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio1	B	deeplmi	standard	warm	1	AP	dynamic_all	0.014993020898926134	0.0029956327928126626	0.026990409005039608	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio1	B	seaglmi	standard	warm	1	AP	dynamic_all	0.01457173091792754	0.00033662759440290964	0.028806834241452167	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio1	B	spgnn	strict	blind_both	1	AP	dynamic_all	0.021520599370743132	0.00019676586038179858	0.04284443288110447	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio1	B	deeplmi	strict	blind_both	1	AP	dynamic_all	0.0005635460222700228	-0.028418360966018	0.029545453010558047	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio1	B	seaglmi	strict	blind_both	1	AP	dynamic_all	0.015756093494310487	-0.01741372090066569	0.04892590788928666	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio1	B	spgnn	strict	warm	1	AP	dynamic_all	-0.0032612007109149577	-0.01965193505140196	0.013129533629572046	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio1	B	deeplmi	strict	warm	1	AP	dynamic_all	-0.004684389780976539	-0.010551175876343247	0.001182396314390168	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio1	B	seaglmi	strict	warm	1	AP	dynamic_all	0.00362501180881174	0.00017511667817080804	0.007074906939452672	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio1	B	spgnn	standard	blind_both	1	AP	ratio_two_minus_one	0.07668090277443482	0.012797655354341755	0.1405641501945279	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio1	B	deeplmi	standard	blind_both	1	AP	ratio_two_minus_one	0.051162681132485135	-0.04708288329440592	0.1494082455593762	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio1	B	sitegbdt	standard	blind_both	1	AP	ratio_two_minus_one	0.00881740919029934	-0.03583754504207402	0.05347236342267271	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio1	B	seaglmi	standard	blind_both	1	AP	ratio_two_minus_one	0.006929887297523441	-0.010483471335447499	0.024343245930494382	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio1	B	spgnn	standard	warm	1	AP	ratio_two_minus_one	-0.0037570492976040093	-0.012875749784167336	0.005361651188959317	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio1	B	deeplmi	standard	warm	1	AP	ratio_two_minus_one	-0.01183248015273497	-0.018157043305145067	-0.005507917000324875	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio1	B	sitegbdt	standard	warm	1	AP	ratio_two_minus_one	0.015233885893630061	-0.01633692069425538	0.0468046924815155	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio1	B	seaglmi	standard	warm	1	AP	ratio_two_minus_one	0.024264587487644595	0.009293173822748255	0.03923600115254094	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio1	B	spgnn	strict	blind_both	1	AP	ratio_two_minus_one	-0.0035890313534336694	-0.03841109402433454	0.0312330313174672	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio1	B	deeplmi	strict	blind_both	1	AP	ratio_two_minus_one	-0.01398637386257735	-0.04290025205777741	0.014927504332622712	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio1	B	sitegbdt	strict	blind_both	1	AP	ratio_two_minus_one	-0.013916693822646908	-0.04482115193326115	0.016987764287967333	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio1	B	seaglmi	strict	blind_both	1	AP	ratio_two_minus_one	-0.009342060506299954	-0.049159920068078386	0.03047579905547848	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio1	B	spgnn	strict	warm	1	AP	ratio_two_minus_one	-0.00037711708171073166	-0.011987168447283368	0.011232934283861904	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio1	B	deeplmi	strict	warm	1	AP	ratio_two_minus_one	-0.00784753744281388	-0.019760979011195785	0.004065904125568029	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio1	B	sitegbdt	strict	warm	1	AP	ratio_two_minus_one	0.03151977040714684	-0.006759227532007847	0.06979876834630153	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio1	B	seaglmi	strict	warm	1	AP	ratio_two_minus_one	-0.0019104686552664507	-0.011374711654365112	0.00755377434383221	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio1	B	spgnn	standard	blind_both	1	AP	eligibility_by_sampling_interaction	0.004209099727294352	-0.003098781843107831	0.011516981297696537	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio1	B	deeplmi	standard	blind_both	1	AP	eligibility_by_sampling_interaction	0.0020115764507924296	-0.037881296604255786	0.04190444950584065	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio1	B	seaglmi	standard	blind_both	1	AP	eligibility_by_sampling_interaction	0.008062653946442344	-0.01056921543455809	0.02669452332744278	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio1	B	spgnn	standard	warm	1	AP	eligibility_by_sampling_interaction	0.001911565778912805	-0.01292291930821591	0.01674605086604152	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio1	B	deeplmi	standard	warm	1	AP	eligibility_by_sampling_interaction	0.002091130809502184	-0.008063844589697923	0.012246106208702291	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio1	B	seaglmi	standard	warm	1	AP	eligibility_by_sampling_interaction	0.007641604432019911	-0.015386064208382335	0.030669273072422155	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio1	B	spgnn	strict	blind_both	1	AP	eligibility_by_sampling_interaction	0.028258937524901474	-0.003393359337206567	0.059911234387009515	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio1	B	deeplmi	strict	blind_both	1	AP	eligibility_by_sampling_interaction	0.0115288851552797	-0.012176975867870662	0.03523474617843006	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio1	B	seaglmi	strict	blind_both	1	AP	eligibility_by_sampling_interaction	0.013794492119859059	-0.03973249014674795	0.06732147438646607	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio1	B	spgnn	strict	warm	1	AP	eligibility_by_sampling_interaction	-0.0022636009410506473	-0.019412933852317404	0.014885731970216108	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio1	B	deeplmi	strict	warm	1	AP	eligibility_by_sampling_interaction	-0.008892023219339906	-0.022387688607977043	0.0046036421692972306	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio1	B	seaglmi	strict	warm	1	AP	eligibility_by_sampling_interaction	0.002840713859341526	-0.005518829068128309	0.011200256786811361	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio10	B	spgnn	standard	blind_both	10	AP	eligibility_fixed	-0.005678869711202117	-0.022636948831350485	0.01127920940894625	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio10	B	deeplmi	standard	blind_both	10	AP	eligibility_fixed	-0.0037024786681845332	-0.012552406064361948	0.005147448727992883	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio10	B	sitegbdt	standard	blind_both	10	AP	eligibility_fixed	0.016078480851317717	-0.005325025855172222	0.037481987557807656	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio10	B	seaglmi	standard	blind_both	10	AP	eligibility_fixed	0.006224976058096831	-0.004172275586443591	0.016622227702637254	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio10	B	spgnn	standard	warm	10	AP	eligibility_fixed	-0.00579253879839855	-0.01894805353329656	0.00736297593649946	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio10	B	deeplmi	standard	warm	10	AP	eligibility_fixed	0.009966065958908754	-0.010265090167313189	0.030197222085130697	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio10	B	sitegbdt	standard	warm	10	AP	eligibility_fixed	-0.0029486431675160517	-0.010329964603508268	0.004432678268476166	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio10	B	seaglmi	standard	warm	10	AP	eligibility_fixed	-0.007997813950412403	-0.03220637302326522	0.016210745122440418	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio10	B	spgnn	strict	blind_both	10	AP	eligibility_fixed	-0.0031644415295017186	-0.004361912352098581	-0.001966970706904856	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio10	B	deeplmi	strict	blind_both	10	AP	eligibility_fixed	-0.0009206462390670799	-0.006731009899243005	0.004889717421108845	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio10	B	sitegbdt	strict	blind_both	10	AP	eligibility_fixed	0.00015283883208493942	-0.03131073784455279	0.03161641550872266	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio10	B	seaglmi	strict	blind_both	10	AP	eligibility_fixed	-0.011497445784239857	-0.03570587308739407	0.012710981518914357	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio10	B	spgnn	strict	warm	10	AP	eligibility_fixed	0.000989532686329661	-0.0012083506262487369	0.003187415998908059	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio10	B	deeplmi	strict	warm	10	AP	eligibility_fixed	0.00016711934069398027	-0.006357763332338954	0.006692002013726914	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio10	B	sitegbdt	strict	warm	10	AP	eligibility_fixed	-0.0035196463207418983	-0.023668559493658824	0.016629266852175025	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio10	B	seaglmi	strict	warm	10	AP	eligibility_fixed	-0.004922690646981342	-0.019202773926481963	0.009357392632519279	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio10	B	spgnn	standard	blind_both	10	AP	eligibility_dynamic	-0.0009289564939910733	-0.004483478800396361	0.0026255658124142143	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio10	B	deeplmi	standard	blind_both	10	AP	eligibility_dynamic	-0.0014685580537659921	-0.004643438049542429	0.0017063219420104451	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio10	B	seaglmi	standard	blind_both	10	AP	eligibility_dynamic	0.0021349517245151496	-0.021348156095477442	0.02561805954450774	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio10	B	spgnn	standard	warm	10	AP	eligibility_dynamic	0.0046467434494463335	-0.00527208386995038	0.014565570768843048	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio10	B	deeplmi	standard	warm	10	AP	eligibility_dynamic	0.010052145204206674	-0.0060553248109371065	0.026159615219350455	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio10	B	seaglmi	standard	warm	10	AP	eligibility_dynamic	0.005527033175582563	-0.023262983252191918	0.03431704960335705	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio10	B	spgnn	strict	blind_both	10	AP	eligibility_dynamic	0.0033983849948119567	-0.008761061462371843	0.015557831451995754	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio10	B	deeplmi	strict	blind_both	10	AP	eligibility_dynamic	0.002557554254919439	-0.0019121032346240468	0.007027211744462925	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio10	B	seaglmi	strict	blind_both	10	AP	eligibility_dynamic	0.002064373146602383	-0.01745033873455669	0.021579085027761458	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio10	B	spgnn	strict	warm	10	AP	eligibility_dynamic	-0.00025220841744612034	-0.003985076481357557	0.0034806596464653163	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio10	B	deeplmi	strict	warm	10	AP	eligibility_dynamic	0.00046151893154842136	-0.003046167616729862	0.003969205479826704	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio10	B	seaglmi	strict	warm	10	AP	eligibility_dynamic	-0.00033135927943018226	-0.012540758525069522	0.011878039966209158	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio10	B	spgnn	standard	blind_both	10	AP	dynamic_base	-0.005115151827031203	-0.023551269315398835	0.01332096566133643	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio10	B	deeplmi	standard	blind_both	10	AP	dynamic_base	-0.0026966297198206006	-0.010009260203623124	0.004616000763981924	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio10	B	seaglmi	standard	blind_both	10	AP	dynamic_base	-0.003886287705982194	-0.01571997417865462	0.007947398766690233	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio10	B	spgnn	standard	warm	10	AP	dynamic_base	-0.021949786231832736	-0.039755095388160286	-0.004144477075505186	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio10	B	deeplmi	standard	warm	10	AP	dynamic_base	0.02420413560439997	-0.009893944524361632	0.05830221573316157	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio10	B	seaglmi	standard	warm	10	AP	dynamic_base	0.025404310062977588	0.007353174672755074	0.0434554454532001	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio10	B	spgnn	strict	blind_both	10	AP	dynamic_base	-0.0007031980893821594	-0.003055212134375284	0.0016488159556109652	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio10	B	deeplmi	strict	blind_both	10	AP	dynamic_base	0.00777254534630904	-0.01611974294146739	0.03166483363408547	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio10	B	seaglmi	strict	blind_both	10	AP	dynamic_base	-0.005939495978578074	-0.04842460936807585	0.0365456174109197	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio10	B	spgnn	strict	warm	10	AP	dynamic_base	0.001194270864598382	-0.0013232123810521098	0.0037117541102488737	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio10	B	deeplmi	strict	warm	10	AP	dynamic_base	-0.0026818585351773587	-0.012499239862722385	0.007135522792367667	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio10	B	seaglmi	strict	warm	10	AP	dynamic_base	0.0038821887679098776	0.0010017164355555874	0.006762661100264168	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio10	B	spgnn	standard	blind_both	10	AP	dynamic_all	-0.0003652386098201593	-0.0056894333494363625	0.004958956129796044	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio10	B	deeplmi	standard	blind_both	10	AP	dynamic_all	-0.0004627091054020593	-0.0039456503374895036	0.003020232126685385	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio10	B	seaglmi	standard	blind_both	10	AP	dynamic_all	-0.007976312039563876	-0.03028937041602673	0.014336746336898978	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio10	B	spgnn	standard	warm	10	AP	dynamic_all	-0.011510503983987851	-0.030747381305650252	0.00772637333767455	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio10	B	deeplmi	standard	warm	10	AP	dynamic_all	0.02429021484969789	-0.004776371600187932	0.053356801299583714	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio10	B	seaglmi	standard	warm	10	AP	dynamic_all	0.03892915718897255	-0.003104045405974358	0.08096235978391947	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio10	B	spgnn	strict	blind_both	10	AP	dynamic_all	0.005859628434931516	-0.004591445468294071	0.016310702338157103	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio10	B	deeplmi	strict	blind_both	10	AP	dynamic_all	0.011250745840295558	-0.006291986783840454	0.02879347846443157	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio10	B	seaglmi	strict	blind_both	10	AP	dynamic_all	0.007622322952264166	-0.010839081402748732	0.026083727307277066	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio10	B	spgnn	strict	warm	10	AP	dynamic_all	-4.747023917739956e-05	-0.002158030041250641	0.0020630895628958416	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio10	B	deeplmi	strict	warm	10	AP	dynamic_all	-0.002387458944322918	-0.005381267397596481	0.0006063495089506455	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio10	B	seaglmi	strict	warm	10	AP	dynamic_all	0.008473520135461038	0.003502400655472967	0.01344463961544911	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio10	B	spgnn	standard	blind_both	10	AP	ratio_two_minus_one	0.025355812102783336	-0.0016116947857676353	0.05232331899133431	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio10	B	deeplmi	standard	blind_both	10	AP	ratio_two_minus_one	0.011919597089030443	-0.015438097022370822	0.039277291200431705	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio10	B	sitegbdt	standard	blind_both	10	AP	ratio_two_minus_one	-0.001615417759845933	-0.03545225110798715	0.03222141558829529	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio10	B	seaglmi	standard	blind_both	10	AP	ratio_two_minus_one	0.0115919002984748	-0.008721144043344554	0.031904944640294156	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio10	B	spgnn	standard	warm	10	AP	ratio_two_minus_one	-0.0016470661375073913	-0.014332927732065385	0.011038795457050601	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio10	B	deeplmi	standard	warm	10	AP	ratio_two_minus_one	-0.011034666282213845	-0.030583214826312675	0.008513882261884986	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio10	B	sitegbdt	standard	warm	10	AP	ratio_two_minus_one	0.03770131862286837	-0.015095486390905133	0.09049812363664188	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio10	B	seaglmi	standard	warm	10	AP	ratio_two_minus_one	0.04718295201665821	0.03062532034521086	0.06374058368810556	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio10	B	spgnn	strict	blind_both	10	AP	ratio_two_minus_one	0.0034951743006327446	-0.002155831603778917	0.009146180205044405	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio10	B	deeplmi	strict	blind_both	10	AP	ratio_two_minus_one	0.00044602293529550084	-0.004738467274230879	0.00563051314482188	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio10	B	sitegbdt	strict	blind_both	10	AP	ratio_two_minus_one	0.011159833861121298	-0.019028736592453264	0.04134840431469586	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio10	B	seaglmi	strict	blind_both	10	AP	ratio_two_minus_one	-0.017601550237955038	-0.059675332935205244	0.024472232459295168	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio10	B	spgnn	strict	warm	10	AP	ratio_two_minus_one	0.001016269626141822	-0.00442200809274064	0.006454547345024283	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio10	B	deeplmi	strict	warm	10	AP	ratio_two_minus_one	-0.0006830486022840005	-0.010011522271520811	0.00864542506695281	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio10	B	sitegbdt	strict	warm	10	AP	ratio_two_minus_one	0.020286195596128837	-0.013762598005546575	0.054334989197804245	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio10	B	seaglmi	strict	warm	10	AP	ratio_two_minus_one	0.006294806104976442	-0.013415349056780886	0.026004961266733767	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio10	B	spgnn	standard	blind_both	10	AP	eligibility_by_sampling_interaction	0.004749913217211044	-0.009190696828176595	0.018690523262598683	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio10	B	deeplmi	standard	blind_both	10	AP	eligibility_by_sampling_interaction	0.0022339206144185416	-0.007971989898990083	0.012439831127827164	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio10	B	seaglmi	standard	blind_both	10	AP	eligibility_by_sampling_interaction	-0.0040900243335816825	-0.028314583907025938	0.02013453523986257	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio10	B	spgnn	standard	warm	10	AP	eligibility_by_sampling_interaction	0.010439282247844883	0.0016416199591840885	0.01923694453650568	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio10	B	deeplmi	standard	warm	10	AP	eligibility_by_sampling_interaction	8.607924529792088e-05	-0.019925404317034264	0.020097562807630105	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio10	B	seaglmi	standard	warm	10	AP	eligibility_by_sampling_interaction	0.013524847125994966	-0.03763980323281921	0.06468949748480914	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio10	B	spgnn	strict	blind_both	10	AP	eligibility_by_sampling_interaction	0.006562826524313675	-0.00550819521057035	0.0186338482591977	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio10	B	deeplmi	strict	blind_both	10	AP	eligibility_by_sampling_interaction	0.003478200493986519	-0.00391228320531253	0.010868684193285568	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio10	B	seaglmi	strict	blind_both	10	AP	eligibility_by_sampling_interaction	0.01356181893084224	-0.01700144392914841	0.04412508179083289	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio10	B	spgnn	strict	warm	10	AP	eligibility_by_sampling_interaction	-0.0012417411037757842	-0.003646166879346822	0.0011626846717952537	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio10	B	deeplmi	strict	warm	10	AP	eligibility_by_sampling_interaction	0.0002943995908544411	-0.006622172428363431	0.007210971610072312	five_paired_fold_difference_sample_SD
+fig_screened_B_contrasts_AP_ratio10	B	seaglmi	strict	warm	10	AP	eligibility_by_sampling_interaction	0.00459133136755116	-0.0009662690920423187	0.01014893182714464	five_paired_fold_difference_sample_SD

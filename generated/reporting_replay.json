@@ -1,0 +1,10 @@
+{
+  "status": "frozen_reporting_replay_passed",
+  "checks": {
+    "independent_equal_weight_and_paired_arithmetic_comparisons": 6480,
+    "font_family": "Times New Roman",
+    "font_present": true
+  },
+  "points": 682,
+  "scope": "Aggregate/reporting replay only; not a second raw-prediction or bootstrap audit."
+}

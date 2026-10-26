@@ -1,0 +1,28 @@
+{
+  "eligibility_fixed": {
+    "F-all-2": 1,
+    "F-base-2": -1
+  },
+  "eligibility_dynamic": {
+    "D-all-2": 1,
+    "D-base-2": -1
+  },
+  "dynamic_base": {
+    "D-base-2": 1,
+    "F-base-2": -1
+  },
+  "dynamic_all": {
+    "D-all-2": 1,
+    "F-all-2": -1
+  },
+  "ratio_two_minus_one": {
+    "F-base-2": 1,
+    "F-base-1": -1
+  },
+  "eligibility_by_sampling_interaction": {
+    "D-all-2": 1,
+    "D-base-2": -1,
+    "F-all-2": -1,
+    "F-base-2": 1
+  }
+}

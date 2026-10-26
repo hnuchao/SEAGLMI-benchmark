@@ -1,0 +1,189 @@
+{\scriptsize
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.08}
+\begin{longtable}{llll}
+\caption{All 160 prespecified applicable paired contrast combinations: AUROC and AP differences (first cell minus reference, as frozen) $\pm$ sample SD of five paired fold differences. Bars/SD are not confidence intervals. The complete TSV retains all 640 original rows, including MCC and F1.}\label{tab:screened-B-contrasts}\\
+\toprule
+Method & Prespecified contrast & AUROC difference & AP difference \\
+\midrule
+\endfirsthead
+\multicolumn{4}{l}{\textit{Continued from previous page}}\\
+\toprule
+Method & Prespecified contrast & AUROC difference & AP difference \\
+\midrule
+\endhead
+\midrule
+\multicolumn{4}{r}{\textit{Continued on next page}}\\
+\endfoot
+\bottomrule
+\endlastfoot
+\multicolumn{4}{l}{\textit{Strict | Inherited warm split | outer 1:1}}\\
+SEAGLMI & Eligibility: fixed & +0.003 $\pm$ 0.010 & +0.002 $\pm$ 0.013 \\
+SEAGLMI & Eligibility: dynamic & +0.004 $\pm$ 0.011 & +0.005 $\pm$ 0.014 \\
+SEAGLMI & Dynamic: base & +0.005 $\pm$ 0.011 & +0.001 $\pm$ 0.011 \\
+SEAGLMI & Dynamic: all & +0.005 $\pm$ 0.007 & +0.004 $\pm$ 0.003 \\
+SEAGLMI & 2:1 minus 1:1 & -0.000 $\pm$ 0.009 & -0.002 $\pm$ 0.009 \\
+SEAGLMI & Eligibility x sampling & +0.001 $\pm$ 0.013 & +0.003 $\pm$ 0.008 \\
+SEAGLMI-GBDT & Eligibility: fixed & +0.004 $\pm$ 0.023 & -0.015 $\pm$ 0.023 \\
+SEAGLMI-GBDT & 2:1 minus 1:1 & +0.005 $\pm$ 0.030 & +0.032 $\pm$ 0.038 \\
+DeepLMI & Eligibility: fixed & +0.005 $\pm$ 0.013 & +0.009 $\pm$ 0.019 \\
+DeepLMI & Eligibility: dynamic & -0.001 $\pm$ 0.008 & +0.000 $\pm$ 0.008 \\
+DeepLMI & Dynamic: base & +0.006 $\pm$ 0.007 & +0.004 $\pm$ 0.018 \\
+DeepLMI & Dynamic: all & -0.000 $\pm$ 0.008 & -0.005 $\pm$ 0.006 \\
+DeepLMI & 2:1 minus 1:1 & -0.005 $\pm$ 0.005 & -0.008 $\pm$ 0.012 \\
+DeepLMI & Eligibility x sampling & -0.006 $\pm$ 0.008 & -0.009 $\pm$ 0.013 \\
+SPGNN & Eligibility: fixed & +0.005 $\pm$ 0.025 & +0.006 $\pm$ 0.014 \\
+SPGNN & Eligibility: dynamic & +0.007 $\pm$ 0.010 & +0.004 $\pm$ 0.005 \\
+SPGNN & Dynamic: base & -0.004 $\pm$ 0.011 & -0.001 $\pm$ 0.003 \\
+SPGNN & Dynamic: all & -0.002 $\pm$ 0.026 & -0.003 $\pm$ 0.016 \\
+SPGNN & 2:1 minus 1:1 & +0.000 $\pm$ 0.016 & -0.000 $\pm$ 0.012 \\
+SPGNN & Eligibility x sampling & +0.002 $\pm$ 0.033 & -0.002 $\pm$ 0.017 \\
+\multicolumn{4}{l}{\textit{Strict | Inherited warm split | outer 1:10}}\\
+SEAGLMI & Eligibility: fixed & +0.004 $\pm$ 0.011 & -0.005 $\pm$ 0.014 \\
+SEAGLMI & Eligibility: dynamic & +0.007 $\pm$ 0.008 & -0.000 $\pm$ 0.012 \\
+SEAGLMI & Dynamic: base & +0.005 $\pm$ 0.008 & +0.004 $\pm$ 0.003 \\
+SEAGLMI & Dynamic: all & +0.008 $\pm$ 0.008 & +0.008 $\pm$ 0.005 \\
+SEAGLMI & 2:1 minus 1:1 & -0.001 $\pm$ 0.012 & +0.006 $\pm$ 0.020 \\
+SEAGLMI & Eligibility x sampling & +0.003 $\pm$ 0.013 & +0.005 $\pm$ 0.006 \\
+SEAGLMI-GBDT & Eligibility: fixed & +0.007 $\pm$ 0.025 & -0.004 $\pm$ 0.020 \\
+SEAGLMI-GBDT & 2:1 minus 1:1 & +0.004 $\pm$ 0.024 & +0.020 $\pm$ 0.034 \\
+DeepLMI & Eligibility: fixed & +0.004 $\pm$ 0.004 & +0.000 $\pm$ 0.007 \\
+DeepLMI & Eligibility: dynamic & +0.001 $\pm$ 0.004 & +0.000 $\pm$ 0.004 \\
+DeepLMI & Dynamic: base & +0.001 $\pm$ 0.009 & -0.003 $\pm$ 0.010 \\
+DeepLMI & Dynamic: all & -0.002 $\pm$ 0.005 & -0.002 $\pm$ 0.003 \\
+DeepLMI & 2:1 minus 1:1 & +0.002 $\pm$ 0.007 & -0.001 $\pm$ 0.009 \\
+DeepLMI & Eligibility x sampling & -0.003 $\pm$ 0.005 & +0.000 $\pm$ 0.007 \\
+SPGNN & Eligibility: fixed & +0.001 $\pm$ 0.010 & +0.001 $\pm$ 0.002 \\
+SPGNN & Eligibility: dynamic & +0.005 $\pm$ 0.005 & -0.000 $\pm$ 0.004 \\
+SPGNN & Dynamic: base & -0.002 $\pm$ 0.004 & +0.001 $\pm$ 0.003 \\
+SPGNN & Dynamic: all & +0.001 $\pm$ 0.010 & -0.000 $\pm$ 0.002 \\
+SPGNN & 2:1 minus 1:1 & -0.002 $\pm$ 0.015 & +0.001 $\pm$ 0.005 \\
+SPGNN & Eligibility x sampling & +0.003 $\pm$ 0.014 & -0.001 $\pm$ 0.002 \\
+\multicolumn{4}{l}{\textit{Strict | Blind-both | outer 1:1}}\\
+SEAGLMI & Eligibility: fixed & +0.012 $\pm$ 0.025 & -0.001 $\pm$ 0.022 \\
+SEAGLMI & Eligibility: dynamic & +0.002 $\pm$ 0.036 & +0.013 $\pm$ 0.050 \\
+SEAGLMI & Dynamic: base & +0.018 $\pm$ 0.056 & +0.002 $\pm$ 0.045 \\
+SEAGLMI & Dynamic: all & +0.008 $\pm$ 0.034 & +0.016 $\pm$ 0.033 \\
+SEAGLMI & 2:1 minus 1:1 & -0.010 $\pm$ 0.038 & -0.009 $\pm$ 0.040 \\
+SEAGLMI & Eligibility x sampling & -0.010 $\pm$ 0.044 & +0.014 $\pm$ 0.054 \\
+SEAGLMI-GBDT & Eligibility: fixed & -0.018 $\pm$ 0.045 & -0.000 $\pm$ 0.054 \\
+SEAGLMI-GBDT & 2:1 minus 1:1 & +0.004 $\pm$ 0.024 & -0.014 $\pm$ 0.031 \\
+DeepLMI & Eligibility: fixed & -0.015 $\pm$ 0.039 & -0.002 $\pm$ 0.022 \\
+DeepLMI & Eligibility: dynamic & +0.005 $\pm$ 0.011 & +0.009 $\pm$ 0.017 \\
+DeepLMI & Dynamic: base & -0.023 $\pm$ 0.026 & -0.011 $\pm$ 0.017 \\
+DeepLMI & Dynamic: all & -0.003 $\pm$ 0.045 & +0.001 $\pm$ 0.029 \\
+DeepLMI & 2:1 minus 1:1 & -0.019 $\pm$ 0.039 & -0.014 $\pm$ 0.029 \\
+DeepLMI & Eligibility x sampling & +0.020 $\pm$ 0.042 & +0.012 $\pm$ 0.024 \\
+SPGNN & Eligibility: fixed & -0.006 $\pm$ 0.014 & -0.006 $\pm$ 0.015 \\
+SPGNN & Eligibility: dynamic & +0.010 $\pm$ 0.023 & +0.022 $\pm$ 0.029 \\
+SPGNN & Dynamic: base & -0.000 $\pm$ 0.033 & -0.007 $\pm$ 0.023 \\
+SPGNN & Dynamic: all & +0.016 $\pm$ 0.014 & +0.022 $\pm$ 0.021 \\
+SPGNN & 2:1 minus 1:1 & -0.006 $\pm$ 0.044 & -0.004 $\pm$ 0.035 \\
+SPGNN & Eligibility x sampling & +0.016 $\pm$ 0.029 & +0.028 $\pm$ 0.032 \\
+\multicolumn{4}{l}{\textit{Strict | Blind-both | outer 1:10}}\\
+SEAGLMI & Eligibility: fixed & +0.001 $\pm$ 0.019 & -0.011 $\pm$ 0.024 \\
+SEAGLMI & Eligibility: dynamic & +0.003 $\pm$ 0.043 & +0.002 $\pm$ 0.020 \\
+SEAGLMI & Dynamic: base & +0.002 $\pm$ 0.066 & -0.006 $\pm$ 0.042 \\
+SEAGLMI & Dynamic: all & +0.004 $\pm$ 0.036 & +0.008 $\pm$ 0.018 \\
+SEAGLMI & 2:1 minus 1:1 & -0.015 $\pm$ 0.028 & -0.018 $\pm$ 0.042 \\
+SEAGLMI & Eligibility x sampling & +0.002 $\pm$ 0.053 & +0.014 $\pm$ 0.031 \\
+SEAGLMI-GBDT & Eligibility: fixed & -0.010 $\pm$ 0.036 & +0.000 $\pm$ 0.031 \\
+SEAGLMI-GBDT & 2:1 minus 1:1 & +0.011 $\pm$ 0.023 & +0.011 $\pm$ 0.030 \\
+DeepLMI & Eligibility: fixed & +0.002 $\pm$ 0.025 & -0.001 $\pm$ 0.006 \\
+DeepLMI & Eligibility: dynamic & -0.000 $\pm$ 0.004 & +0.003 $\pm$ 0.004 \\
+DeepLMI & Dynamic: base & +0.023 $\pm$ 0.059 & +0.008 $\pm$ 0.024 \\
+DeepLMI & Dynamic: all & +0.020 $\pm$ 0.052 & +0.011 $\pm$ 0.018 \\
+DeepLMI & 2:1 minus 1:1 & -0.008 $\pm$ 0.015 & +0.000 $\pm$ 0.005 \\
+DeepLMI & Eligibility x sampling & -0.002 $\pm$ 0.027 & +0.003 $\pm$ 0.007 \\
+SPGNN & Eligibility: fixed & -0.003 $\pm$ 0.015 & -0.003 $\pm$ 0.001 \\
+SPGNN & Eligibility: dynamic & -0.009 $\pm$ 0.009 & +0.003 $\pm$ 0.012 \\
+SPGNN & Dynamic: base & +0.005 $\pm$ 0.017 & -0.001 $\pm$ 0.002 \\
+SPGNN & Dynamic: all & -0.001 $\pm$ 0.011 & +0.006 $\pm$ 0.010 \\
+SPGNN & 2:1 minus 1:1 & +0.002 $\pm$ 0.029 & +0.003 $\pm$ 0.006 \\
+SPGNN & Eligibility x sampling & -0.006 $\pm$ 0.017 & +0.007 $\pm$ 0.012 \\
+\multicolumn{4}{l}{\textit{Standard | Inherited warm split | outer 1:1}}\\
+SEAGLMI & Eligibility: fixed & -0.003 $\pm$ 0.012 & -0.007 $\pm$ 0.018 \\
+SEAGLMI & Eligibility: dynamic & +0.001 $\pm$ 0.013 & +0.001 $\pm$ 0.012 \\
+SEAGLMI & Dynamic: base & +0.004 $\pm$ 0.009 & +0.007 $\pm$ 0.010 \\
+SEAGLMI & Dynamic: all & +0.008 $\pm$ 0.014 & +0.015 $\pm$ 0.014 \\
+SEAGLMI & 2:1 minus 1:1 & +0.019 $\pm$ 0.016 & +0.024 $\pm$ 0.015 \\
+SEAGLMI & Eligibility x sampling & +0.004 $\pm$ 0.020 & +0.008 $\pm$ 0.023 \\
+SEAGLMI-GBDT & Eligibility: fixed & -0.004 $\pm$ 0.004 & -0.004 $\pm$ 0.005 \\
+SEAGLMI-GBDT & 2:1 minus 1:1 & +0.009 $\pm$ 0.018 & +0.015 $\pm$ 0.032 \\
+DeepLMI & Eligibility: fixed & +0.003 $\pm$ 0.004 & +0.003 $\pm$ 0.004 \\
+DeepLMI & Eligibility: dynamic & +0.003 $\pm$ 0.003 & +0.005 $\pm$ 0.009 \\
+DeepLMI & Dynamic: base & +0.018 $\pm$ 0.018 & +0.013 $\pm$ 0.015 \\
+DeepLMI & Dynamic: all & +0.017 $\pm$ 0.021 & +0.015 $\pm$ 0.012 \\
+DeepLMI & 2:1 minus 1:1 & -0.011 $\pm$ 0.020 & -0.012 $\pm$ 0.006 \\
+DeepLMI & Eligibility x sampling & -0.001 $\pm$ 0.006 & +0.002 $\pm$ 0.010 \\
+SPGNN & Eligibility: fixed & -0.008 $\pm$ 0.017 & -0.006 $\pm$ 0.012 \\
+SPGNN & Eligibility: dynamic & -0.008 $\pm$ 0.016 & -0.004 $\pm$ 0.010 \\
+SPGNN & Dynamic: base & +0.001 $\pm$ 0.030 & -0.003 $\pm$ 0.018 \\
+SPGNN & Dynamic: all & +0.001 $\pm$ 0.012 & -0.001 $\pm$ 0.008 \\
+SPGNN & 2:1 minus 1:1 & -0.009 $\pm$ 0.014 & -0.004 $\pm$ 0.009 \\
+SPGNN & Eligibility x sampling & +0.000 $\pm$ 0.025 & +0.002 $\pm$ 0.015 \\
+\multicolumn{4}{l}{\textit{Standard | Inherited warm split | outer 1:10}}\\
+SEAGLMI & Eligibility: fixed & -0.000 $\pm$ 0.008 & -0.008 $\pm$ 0.024 \\
+SEAGLMI & Eligibility: dynamic & +0.004 $\pm$ 0.012 & +0.006 $\pm$ 0.029 \\
+SEAGLMI & Dynamic: base & +0.003 $\pm$ 0.007 & +0.025 $\pm$ 0.018 \\
+SEAGLMI & Dynamic: all & +0.007 $\pm$ 0.013 & +0.039 $\pm$ 0.042 \\
+SEAGLMI & 2:1 minus 1:1 & +0.016 $\pm$ 0.012 & +0.047 $\pm$ 0.017 \\
+SEAGLMI & Eligibility x sampling & +0.004 $\pm$ 0.018 & +0.014 $\pm$ 0.051 \\
+SEAGLMI-GBDT & Eligibility: fixed & -0.003 $\pm$ 0.002 & -0.003 $\pm$ 0.007 \\
+SEAGLMI-GBDT & 2:1 minus 1:1 & +0.007 $\pm$ 0.014 & +0.038 $\pm$ 0.053 \\
+DeepLMI & Eligibility: fixed & +0.002 $\pm$ 0.006 & +0.010 $\pm$ 0.020 \\
+DeepLMI & Eligibility: dynamic & +0.003 $\pm$ 0.003 & +0.010 $\pm$ 0.016 \\
+DeepLMI & Dynamic: base & +0.015 $\pm$ 0.018 & +0.024 $\pm$ 0.034 \\
+DeepLMI & Dynamic: all & +0.016 $\pm$ 0.019 & +0.024 $\pm$ 0.029 \\
+DeepLMI & 2:1 minus 1:1 & -0.011 $\pm$ 0.020 & -0.011 $\pm$ 0.020 \\
+DeepLMI & Eligibility x sampling & +0.001 $\pm$ 0.005 & +0.000 $\pm$ 0.020 \\
+SPGNN & Eligibility: fixed & -0.006 $\pm$ 0.015 & -0.006 $\pm$ 0.013 \\
+SPGNN & Eligibility: dynamic & -0.005 $\pm$ 0.010 & +0.005 $\pm$ 0.010 \\
+SPGNN & Dynamic: base & -0.004 $\pm$ 0.024 & -0.022 $\pm$ 0.018 \\
+SPGNN & Dynamic: all & -0.003 $\pm$ 0.008 & -0.012 $\pm$ 0.019 \\
+SPGNN & 2:1 minus 1:1 & -0.008 $\pm$ 0.013 & -0.002 $\pm$ 0.013 \\
+SPGNN & Eligibility x sampling & +0.001 $\pm$ 0.019 & +0.010 $\pm$ 0.009 \\
+\multicolumn{4}{l}{\textit{Standard | Blind-both | outer 1:1}}\\
+SEAGLMI & Eligibility: fixed & +0.003 $\pm$ 0.016 & -0.003 $\pm$ 0.012 \\
+SEAGLMI & Eligibility: dynamic & +0.004 $\pm$ 0.022 & +0.005 $\pm$ 0.020 \\
+SEAGLMI & Dynamic: base & +0.004 $\pm$ 0.017 & -0.005 $\pm$ 0.009 \\
+SEAGLMI & Dynamic: all & +0.006 $\pm$ 0.023 & +0.003 $\pm$ 0.024 \\
+SEAGLMI & 2:1 minus 1:1 & +0.005 $\pm$ 0.024 & +0.007 $\pm$ 0.017 \\
+SEAGLMI & Eligibility x sampling & +0.002 $\pm$ 0.013 & +0.008 $\pm$ 0.019 \\
+SEAGLMI-GBDT & Eligibility: fixed & +0.014 $\pm$ 0.033 & +0.017 $\pm$ 0.041 \\
+SEAGLMI-GBDT & 2:1 minus 1:1 & +0.011 $\pm$ 0.058 & +0.009 $\pm$ 0.045 \\
+DeepLMI & Eligibility: fixed & +0.015 $\pm$ 0.047 & -0.002 $\pm$ 0.051 \\
+DeepLMI & Eligibility: dynamic & +0.002 $\pm$ 0.011 & -0.000 $\pm$ 0.012 \\
+DeepLMI & Dynamic: base & +0.008 $\pm$ 0.012 & -0.001 $\pm$ 0.027 \\
+DeepLMI & Dynamic: all & -0.005 $\pm$ 0.030 & +0.001 $\pm$ 0.013 \\
+DeepLMI & 2:1 minus 1:1 & +0.027 $\pm$ 0.120 & +0.051 $\pm$ 0.098 \\
+DeepLMI & Eligibility x sampling & -0.014 $\pm$ 0.036 & +0.002 $\pm$ 0.040 \\
+SPGNN & Eligibility: fixed & -0.007 $\pm$ 0.015 & -0.014 $\pm$ 0.024 \\
+SPGNN & Eligibility: dynamic & -0.017 $\pm$ 0.034 & -0.010 $\pm$ 0.021 \\
+SPGNN & Dynamic: base & -0.004 $\pm$ 0.014 & -0.007 $\pm$ 0.020 \\
+SPGNN & Dynamic: all & -0.015 $\pm$ 0.035 & -0.003 $\pm$ 0.021 \\
+SPGNN & 2:1 minus 1:1 & +0.090 $\pm$ 0.073 & +0.077 $\pm$ 0.064 \\
+SPGNN & Eligibility x sampling & -0.010 $\pm$ 0.021 & +0.004 $\pm$ 0.007 \\
+\multicolumn{4}{l}{\textit{Standard | Blind-both | outer 1:10}}\\
+SEAGLMI & Eligibility: fixed & +0.000 $\pm$ 0.010 & +0.006 $\pm$ 0.010 \\
+SEAGLMI & Eligibility: dynamic & +0.003 $\pm$ 0.019 & +0.002 $\pm$ 0.023 \\
+SEAGLMI & Dynamic: base & +0.001 $\pm$ 0.005 & -0.004 $\pm$ 0.012 \\
+SEAGLMI & Dynamic: all & +0.004 $\pm$ 0.019 & -0.008 $\pm$ 0.022 \\
+SEAGLMI & 2:1 minus 1:1 & +0.008 $\pm$ 0.015 & +0.012 $\pm$ 0.020 \\
+SEAGLMI & Eligibility x sampling & +0.003 $\pm$ 0.017 & -0.004 $\pm$ 0.024 \\
+SEAGLMI-GBDT & Eligibility: fixed & +0.016 $\pm$ 0.016 & +0.016 $\pm$ 0.021 \\
+SEAGLMI-GBDT & 2:1 minus 1:1 & +0.003 $\pm$ 0.037 & -0.002 $\pm$ 0.034 \\
+DeepLMI & Eligibility: fixed & -0.002 $\pm$ 0.016 & -0.004 $\pm$ 0.009 \\
+DeepLMI & Eligibility: dynamic & +0.001 $\pm$ 0.001 & -0.001 $\pm$ 0.003 \\
+DeepLMI & Dynamic: base & -0.006 $\pm$ 0.010 & -0.003 $\pm$ 0.007 \\
+DeepLMI & Dynamic: all & -0.003 $\pm$ 0.023 & -0.000 $\pm$ 0.003 \\
+DeepLMI & 2:1 minus 1:1 & +0.012 $\pm$ 0.069 & +0.012 $\pm$ 0.027 \\
+DeepLMI & Eligibility x sampling & +0.003 $\pm$ 0.016 & +0.002 $\pm$ 0.010 \\
+SPGNN & Eligibility: fixed & -0.003 $\pm$ 0.010 & -0.006 $\pm$ 0.017 \\
+SPGNN & Eligibility: dynamic & -0.002 $\pm$ 0.008 & -0.001 $\pm$ 0.004 \\
+SPGNN & Dynamic: base & -0.006 $\pm$ 0.014 & -0.005 $\pm$ 0.018 \\
+SPGNN & Dynamic: all & -0.005 $\pm$ 0.014 & -0.000 $\pm$ 0.005 \\
+SPGNN & 2:1 minus 1:1 & +0.052 $\pm$ 0.059 & +0.025 $\pm$ 0.027 \\
+SPGNN & Eligibility x sampling & +0.001 $\pm$ 0.004 & +0.005 $\pm$ 0.014 \\
+\end{longtable}
+}

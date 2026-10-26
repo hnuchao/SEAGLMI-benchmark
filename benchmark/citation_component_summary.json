@@ -1,0 +1,51 @@
+{
+ "scope": "metadata only; recorded PMID components, not proven independent experiments",
+ "citation_components_all": 1818,
+ "LT_components": 1430,
+ "retained_LT_pairs": 1525,
+ "LT_component_size_bins": {
+  "1": 1398,
+  "2": 27,
+  "3-5": 4,
+  "6-10": 0,
+  ">10": 1
+ },
+ "retained_pairs_in_size_bins": {
+  "1": 1398,
+  "2": 54,
+  "3-5": 15,
+  "6-10": 0,
+  ">10": 58
+ },
+ "largest_LT_component": 58,
+ "largest_components_top5": [
+  58,
+  5,
+  4,
+  3,
+  3
+ ],
+ "LT_components_with_multiple_pmids": 168,
+ "LT_components_also_containing_non_retained_pairs": 17,
+ "retained_pairs_with_multiple_listed_pmids": 191,
+ "retained_pairs_with_compound_method_flag": 21,
+ "retained_pairs_original_experiment_verified": 0,
+ "retained_pairs_per_outer_fold": {
+  "4": 305,
+  "2": 305,
+  "1": 305,
+  "3": 305,
+  "0": 305
+ },
+ "retained_lncRNAs": 454,
+ "transcript_source_counts": {
+  "Ensembl_canonical": 454
+ },
+ "transcript_length_nt": {
+  "min": 200,
+  "median": 1452,
+  "max": 91667
+ },
+ "transcript_selection_rule": "GENCODE v50 transcript tagged Ensembl_canonical; longest transcript if no tag (s02_lnc_ref.py)",
+ "node_table_sha256": "cc26344c0c48f9ed98bd852cd2e7e70d4e0ea65dca055383d3695872e09a0fc4"
+}

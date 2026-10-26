@@ -1,0 +1,29 @@
+\begin{table*}[t]
+\centering
+\caption{Strict protocol, 1:1 outer evaluation. AUROC/AP are equal means over five seed-0 folds; all 14 methods are shown. Fold SDs and the six metrics at both evaluation ratios are reported in the supplement. All supervised baseline training uses the frozen fixed 1:2 rows. Cross-protocol differences include the frozen context pipeline and are not a sampling-only effect.}
+\label{tab:strict}
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{lcccccccc}
+\toprule
+ & \multicolumn{2}{c}{Inherited warm split} & \multicolumn{2}{c}{Blind-lncRNA} & \multicolumn{2}{c}{Blind-miRNA} & \multicolumn{2}{c}{Blind-both} \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}\cmidrule(lr){6-7}\cmidrule(lr){8-9}
+Method & AUROC & AP & AUROC & AP & AUROC & AP & AUROC & AP \\
+\midrule
+SEAGLMI & 0.666 & 0.665 & 0.666 & 0.666 & 0.669 & 0.669 & 0.663 & 0.686 \\
+SEAGLMI-GBDT & 0.678 & 0.679 & 0.665 & 0.668 & 0.664 & 0.662 & 0.677 & 0.660 \\
+PairFeat-GBDT & 0.676 & 0.672 & 0.660 & 0.680 & 0.673 & 0.673 & 0.634 & 0.649 \\
+DeepLMI & 0.531 & 0.546 & 0.514 & 0.520 & 0.513 & 0.525 & 0.481 & 0.508 \\
+SPGNN & 0.537 & 0.553 & 0.520 & 0.522 & 0.514 & 0.516 & 0.507 & 0.519 \\
+HetGAT-LMI & 0.489 & 0.502 & 0.506 & 0.510 & 0.495 & 0.500 & 0.484 & 0.514 \\
+MPGK-LMI & 0.543 & 0.547 & 0.503 & 0.509 & 0.519 & 0.523 & 0.483 & 0.512 \\
+TEC-LncMir & 0.493 & 0.501 & 0.512 & 0.514 & 0.511 & 0.516 & 0.477 & 0.502 \\
+preMLI & 0.504 & 0.522 & 0.499 & 0.507 & 0.505 & 0.508 & 0.491 & 0.503 \\
+SLNPM-SC & 0.525 & 0.528 & 0.529 & 0.537 & 0.523 & 0.525 & 0.500 & 0.500 \\
+NDALMA & 0.568 & 0.565 & 0.522 & 0.527 & 0.531 & 0.528 & 0.500 & 0.500 \\
+k-mer LR & 0.504 & 0.514 & 0.498 & 0.491 & 0.519 & 0.516 & 0.483 & 0.494 \\
+Seed rule & 0.643 & 0.618 & 0.644 & 0.617 & 0.635 & 0.596 & 0.662 & 0.657 \\
+Degree prior & 0.537 & 0.559 & 0.521 & 0.517 & 0.521 & 0.517 & 0.500 & 0.500 \\
+\bottomrule
+\end{tabular}
+\end{table*}
